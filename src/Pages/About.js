@@ -1,6 +1,6 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
-import Resume from '../Kayode-Olowo-Resume.pdf'
+import Resume from '../Kayode-Olowo.pdf'
 
 
 import { AiOutlineCloudDownload } from 'react-icons/ai';

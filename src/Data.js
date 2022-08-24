@@ -23,6 +23,7 @@ const Categories = [
 
     },
 
+   
     {
         id:2,
        //  categories: "websites",
@@ -49,6 +50,20 @@ const Categories = [
 
     },
 
+     {
+       id:7,
+       //  categories: "websites",
+        name: "My Portfolio",
+         type: "Json",
+        img : "./images/portf.png",
+       description: "Hi Welcome to my portfolio. ",
+        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        link: "https://kayodeolowo.netlify.app/",
+        github: "https://github.com/kayodeolowo/myportfolio"
+
+    },
+
+
     {
        id:4,
        //  categories: "websites",
@@ -65,7 +80,7 @@ const Categories = [
        id:5,
        //  categories: "websites",
         name: "Currency Converter",
-        type: "Rest Api",
+        type: "Rest API",
         img : "./images/converter.png",
        description: "Web App built with the functionality of Accurately converting currencies. ",
         languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
