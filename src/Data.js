@@ -11,13 +11,25 @@ const Categories = [
 
     },
 
+     {
+       id:6,
+       //  categories: "websites",
+        name: "Budget Calculator",
+        img : "./images/budget.png",
+       description: "A website for totaling your daily expenditures. ",
+        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        link: "https://mybudgets-calculator.netlify.app/",
+        github: "https://github.com/kayodeolowo/expenses_Calculator"
+
+    },
+
     {
         id:2,
        //  categories: "websites",
         name: "Country Factzone",
         type: "Rest Api",
         img : "./images/country.png",
-        description: "This site displays all countries and their details from an api. ",
+        description: "This site displays all continents, countries and their details from an api. ",
          languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3" ],
         link: "https://countries-facts.netlify.app/",
         github: "https://github.com/kayodeolowo/Country-factsZone"
@@ -42,7 +54,7 @@ const Categories = [
        //  categories: "websites",
         name: "Eazy Bank",
         img : "./images/eazybank.png",
-        description: "A responsive Banking landing page built with Tailwindcss. ",
+        description: "A responsive Banking landing page. ",
          languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
         link: "https://my-eazy-bank.netlify.app/",
         github: "https://github.com/kayodeolowo/easebank"
@@ -61,6 +73,8 @@ const Categories = [
         github: "https://github.com/kayodeolowo/currency-converter"
 
     },
+
+   
 
     
      
