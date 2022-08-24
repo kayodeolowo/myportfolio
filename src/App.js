@@ -6,6 +6,7 @@ import Projects from "./Pages/Projects";
 import Skillset from "./Pages/Skillset";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Contact from "./Pages/Contact";
+import Footer from "./Pages/Footer";
 
 //import  ClipLoader  from "react-spinners/RiseLoader";
 
@@ -31,6 +32,7 @@ function App() {
       <Skillset/>
       <Projects/>
       <Contact/>
+      <Footer/>
 
       
      </div>
