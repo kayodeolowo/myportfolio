@@ -20,7 +20,7 @@ const Navbar = () => {
     },[]);
 
     return (
-        <div className="flex w-full  justify-between  items-center h-20 sm:h-18 px-4 
+        <div className="flex w-full  justify-between  items-center h-18 sm:h-18 px-4 
           text-white font-public bg-[#0B1E33] fixed z-10 "> 
             
             <div className='flex  w-11/12 max-w-[1280px] mx-auto justify-between '>
@@ -54,7 +54,7 @@ const Navbar = () => {
 
              <div   onClick={handleNav} className={nav ? ' leading-loose text-center text-2xl rounded-lg absolute text-white  left-0 top-0    w-full m-auto z-10    flex h-[400px]   mt-20 bg-[#0B1E33]   flex-col' : 'absolute left-[-100%] '}>
               <div > 
-                    <ul data-aos="fade-up"  className='md:hidden text-[19px] mt-10 font-fira  flex flex-col '>
+                    <ul data-aos="fade-up"  className='md:hidden text-xlg font-semibold mt-10 font-fira  flex flex-col '>
                        <Link   to='#' className='mt-2' >Home</Link>
                       <Link to='#about'  className='mt-2' >About</Link>
                       <Link to='#skills' className='mt-2' >Skills</Link>
