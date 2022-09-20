@@ -2,10 +2,10 @@
 import React, { useEffect } from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
-import {TbSend} from  'react-icons/tb'
+import {TbSend, TbBrandGmail} from  'react-icons/tb'
 import {FiTwitter} from 'react-icons/fi'
 import {FaLinkedin} from 'react-icons/fa'
-import {BsGithub} from 'react-icons/bs'
+import {BsGithub} from 'react-icons/bs' 
 import { HashLink as Link } from 'react-router-hash-link';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -64,6 +64,7 @@ const Contact = () => {
                       <button className='hover:-translate-y-2 duration-500'> <a href='https://twitter.com/Itz_kayman'> <FiTwitter/> </a> </button>  
                         <button className='lg:mt-24 hover:-translate-y-2 duration-500'>  <a href='https://www.linkedin.com/in/kayode-olowo-21a775124/'> <FaLinkedin/> </a> </button>  
                         <button className='lg:mt-24 hover:-translate-y-2 duration-500'>   <a href='https://github.com/kayodeolowo'>  <BsGithub/> </a> </button>  
+                        <button className='lg:mt-24 hover:-translate-y-2 duration-500'>   <a href='mailto:officialkayodeolowo@gmail.com'>  <TbBrandGmail/> </a> </button>  
                        
                     </div>
                       

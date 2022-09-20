@@ -20,23 +20,23 @@ const Navbar = () => {
     },[]);
 
     return (
-        <div className="flex w-full  justify-between  items-center h-18 sm:h-18 px-4 
+        <div className="flex w-full  justify-between  items-center h-20 sm:h-18 px-4 
           text-white font-public bg-[#0B1E33] fixed z-10 "> 
             
             <div className='flex  w-11/12 max-w-[1280px] mx-auto justify-between '>
                     <div className='' >
                 
-                            <h1 className=' text-gray-300 text-[30px] font-Source font-semibold'> KO<span className='text-[35px]'> </span> </h1>
+                        <Link to='#'>    <h1 className=' text-gray-300 text-[30px] font-Source font-semibold'> KO<span className='text-[35px]'> </span> </h1> </Link>
                 
                      </div> 
 
              <div data-aos="fade-left" className='  '> 
               <ul className=' hidden md:flex text-[19px]    mt-4  text-white font-mono  '> 
                       <Link to='#'  className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >   Home    </Link>
-                      <Link to='#about'  className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >   About    </Link>
+                      <Link to='#about'  className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >   About Me   </Link>
                       <Link to='#skills' className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >    Skills   </Link>
-                      <Link to='#projects' className='md:mx-3 hover:text-[#E0A040]   hover:-translate-x-1 duration-200' >   Projects    </Link>
-                      <Link to='#contact' className='md:mx-3 hover:text-[#E0A040]  hover:-translate-x-1 duration-200' >     Contact  </Link>
+                      <Link to='#projects' className='md:mx-3 hover:text-[#E0A040]   hover:-translate-x-1 duration-200' >  My Projects    </Link>
+                      <Link to='#contact' className='md:mx-3 hover:text-[#E0A040]  hover:-translate-x-1 duration-200' >     Contact Me  </Link>
                      
                             
                         </ul>
@@ -44,7 +44,7 @@ const Navbar = () => {
             </div> 
            
 
-         
+        
             {/* hamburger */} 
             <div   onClick={handleNav} className=' md:hidden z-10 '> 
             {nav ? <AiOutlineClose className='text-[#E0A040] ' size={32}/> :   <CgMenuGridR className='text-[#E0A040] ' size={32}/>}
@@ -56,10 +56,10 @@ const Navbar = () => {
               <div > 
                     <ul data-aos="fade-up"  className='md:hidden text-xlg font-semibold mt-10 font-fira  flex flex-col '>
                        <Link   to='#' className='mt-2' >Home</Link>
-                      <Link to='#about'  className='mt-2' >About</Link>
+                      <Link to='#about'  className='mt-2' >About Me</Link>
                       <Link to='#skills' className='mt-2' >Skills</Link>
-                      <Link to='#projects' className='mt-2' >Projects</Link>
-                      <Link to='#contact' className='mt-2'>Contact </Link>
+                      <Link to='#projects' className='mt-2' > My Projects</Link>
+                      <Link to='#contact' className='mt-2'>Contact Me </Link>
         </ul> 
         </div>
       </div>
