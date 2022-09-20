@@ -48,10 +48,10 @@ const Contact = () => {
                                 </p>
                         </div>
                             <form ref={form} onSubmit={sendEmail} className='flex flex-col mt-8 '> 
-                            <input className='mb-4 mx-10 py-3 px-6  rounded-full  bg-[#27253b] font-Inconsolata font-semibold focus:border-red-400 outline-[#E0A040]' type="text" placeholder="Full name" name="user_name" required/>
-                            <input className='mb-4 mx-10 py-3 px-6 rounded-full bg-[#27253b] font-Inconsolata font-semibold outline-[#E0A040]' type="email" placeholder="Email" required name="user_email"/>
-                            <input className='mb-4 mx-10 py-3 px-6 font-Inconsolata font-semibold rounded-full bg-[#27253b] outline-[#E0A040]' type="text" placeholder="Subject" required name="subject"/>
-                         <textarea  name="message" placeholder="Message" className='mb-4 mx-10 py-3 px-2 rounded-2xl bg-[#27253b] h-[120px] outline-[#E0A040]'  required  > </textarea>
+                            <input className='mb-4 mx-10 py-3 px-6  rounded-full  bg-[#27253b] font-Inconsolata font-semibold focus:border-red-400 outline-[#E0A040] outline-0' type="text" placeholder="Full name" name="user_name" required/>
+                            <input className='mb-4 mx-10 py-3 px-6 rounded-full bg-[#27253b] font-Inconsolata font-semibold outline-[#E0A040] outline-0' type="email" placeholder="Email" required name="user_email"/>
+                            <input className='mb-4 mx-10 py-3 px-6 font-Inconsolata font-semibold rounded-full bg-[#27253b] outline-[#E0A040] outline-0' type="text" placeholder="Subject" required name="subject"/>
+                         <textarea  name="message" placeholder="Message" className='mb-4 mx-10 py-3 px-2 rounded-2xl bg-[#27253b] h-[120px] outline-0 outline-[#E0A040]'  required  > </textarea>
                           <button className='bg-[#E0A040]  w-5/12 mx-auto rounded-lg py-2 text-black flex justify-center mt-8 font-Ubuntu font-bold' type='submit'> Send me a mail <span className='ml-2 text-[20px]'> <TbSend/> </span> </button>
                         </form>
                      </div>
