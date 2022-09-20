@@ -4,7 +4,7 @@ const Categories = [
        //  categories: "websites",
         name: "Tasty Foods",
         img : "./images/Tasty.png",
-       description: "A Mobile Respnsive Landing page for an Eatery  ",
+       description: "A Mobile Responsive Landing page for an Eatery  ",
         languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
         link: "https://tasty-foodies.netlify.app/",
         github: "https://github.com/kayodeolowo/foodweb"

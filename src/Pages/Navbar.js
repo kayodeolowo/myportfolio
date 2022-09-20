@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className='flex  w-11/12 max-w-[1280px] mx-auto justify-between '>
                     <div className='' >
                 
-                            <h1 className=' text-white text-[30px]'> KO<span className='text-[40px]'>. </span> </h1>
+                            <h1 className=' text-gray-300 text-[30px] font-Source font-semibold'> KO<span className='text-[35px]'> </span> </h1>
                 
                      </div> 
 
