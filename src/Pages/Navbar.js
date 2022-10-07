@@ -4,7 +4,7 @@ import { CgMenuGridR } from 'react-icons/cg';
 import { HashLink as Link } from 'react-router-hash-link';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 
 
 const Navbar = () => {
@@ -32,19 +32,14 @@ const Navbar = () => {
                      </div> 
 
               
-             <div className='  '> 
-              <ul className=' hidden md:flex text-base    mt-4  text-white font-mono  '> 
-                   
+             <div   className='  '> 
+              <ul  data-aos="fade-down" className=' hidden md:flex text-base    mt-4  text-white font-mono  '> 
                       <Link to='#'  className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >   Home    </Link>
-                      
-
-          
                       <Link to='#about'  className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >   About    </Link>
                       <Link to='#skills' className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >    Skills   </Link>
                       <Link to='#projects' className='md:mx-3 hover:text-[#E0A040]   hover:-translate-x-1 duration-200' >   Projects    </Link>
                       <Link to='#contact' className='md:mx-3 hover:text-[#E0A040]  hover:-translate-x-1 duration-200' >     Contact  </Link> 
                         </ul>
-                      
             </div>    
             
             </div> 
@@ -59,8 +54,9 @@ const Navbar = () => {
 
 
              <div   onClick={handleNav} className={nav ? ' leading-loose text-center text-2xl rounded-lg absolute text-white  left-0 top-0    w-full m-auto z-10    flex h-[400px]   mt-20 bg-[#0B1E33]   flex-col' : 'absolute left-[-100%] '}>
+              
               <div > 
-                    <ul data-aos="fade-up"  className='md:hidden text-xlg font-semibold mt-10 font-fira  flex flex-col '>
+                    <ul   className='md:hidden text-xlg font-semibold mt-10 font-fira  flex flex-col '>
                        <Link   to='#' className='mt-2' >Home</Link>
                       <Link to='#about'  className='mt-2' >About </Link>
                       <Link to='#skills' className='mt-2' >Skills</Link>
@@ -68,6 +64,8 @@ const Navbar = () => {
                       <Link to='#contact' className='mt-2'>Contact  </Link>
         </ul> 
         </div>
+       
+
       </div>
             
         </div>
