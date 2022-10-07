@@ -6,6 +6,7 @@ import {BsGithub} from 'react-icons/bs'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
+
 const Projects = () => {
   const [data, setData ] = useState (Categories);
    const [value, setValue] = useState(0)

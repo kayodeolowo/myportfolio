@@ -4,6 +4,7 @@ import { CgMenuGridR } from 'react-icons/cg';
 import { HashLink as Link } from 'react-router-hash-link';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Fade from 'react-reveal/Fade';
 
 
 const Navbar = () => {
@@ -30,17 +31,17 @@ const Navbar = () => {
                 
                      </div> 
 
-             <div data-aos="fade-left" className='  '> 
+               <Fade left>
+             <div className='  '> 
               <ul className=' hidden md:flex text-base    mt-4  text-white font-mono  '> 
                       <Link to='#'  className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >   Home    </Link>
                       <Link to='#about'  className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >   About    </Link>
                       <Link to='#skills' className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >    Skills   </Link>
                       <Link to='#projects' className='md:mx-3 hover:text-[#E0A040]   hover:-translate-x-1 duration-200' >   Projects    </Link>
-                      <Link to='#contact' className='md:mx-3 hover:text-[#E0A040]  hover:-translate-x-1 duration-200' >     Contact  </Link>
-                     
-                            
+                      <Link to='#contact' className='md:mx-3 hover:text-[#E0A040]  hover:-translate-x-1 duration-200' >     Contact  </Link> 
                         </ul>
             </div>    
+            </Fade>
             </div> 
            
 
