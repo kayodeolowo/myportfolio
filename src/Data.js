@@ -5,7 +5,7 @@ const Categories = [
          categories: "websites",
         name: "Edushare",
         img : "./images/edushare.png",
-       description: "A landing page designed for Connections in Academics to give students all across the nation a tuition-free online public school that lets them learn ",
+       description: "An Educationals landing page for a tuition-free online public school ",
         languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
         link: "https://myedushare.netlify.app/",
         github: "https://github.com/kayodeolowo/edushare-Landing-page"

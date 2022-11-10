@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from 'react'
+import { NavLink } from "react-router-dom"
+import styled from "styled-components"
 
 import Categories from '../Data'
 import {CgEnter } from 'react-icons/cg';
@@ -9,8 +11,9 @@ import 'aos/dist/aos.css';
 
 const Projects = () => {
   const [data, setData ] = useState (Categories);
-   const [value, setValue] = useState(0)
-   const [isActive, setIsActive] = useState(false);
+   const [value, setValue] = useState(0);
+
+
   
 
  const filterResult = (output) => {
@@ -42,9 +45,15 @@ const Projects = () => {
       
         <div className='leading-[30px] lg:leading-[20px] flex  justify-center mx-auto items-center w-fit space-x-6 px-4 py-0.5 mt-8  bg-white rounded-lg text-black  '> 
       
-         <button className=''  onClick={()=>setData(Categories)}>All </button>
-        <button className='' onClick={()=>filterResult('web apps')}>Web apps </button>
-        <button className='active:text-red-500' onClick={()=>filterResult('websites')}  >Websites </button>
+         
+          
+          <button className='active:underline active:text-[#E0A040]'  onClick={()=>setData(Categories)}>All </button>
+         
+        <button className='active:underline active:text-[#E0A040]' onClick={()=>filterResult('web apps')}>Web apps </button>
+
+        
+        <button  className='active:underline active:text-[#E0A040]'  onClick={()=>filterResult('websites')}  >Websites </button>
+      
          </div>
       
      
@@ -89,3 +98,4 @@ const Projects = () => {
 }
 
 export default Projects
+
