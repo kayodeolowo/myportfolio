@@ -43,7 +43,7 @@ const Contact = () => {
                     
                     
                      <div> 
-                          <div className='mt-2 font-fira text-gray-100 text-lg md:text-[20px]'> 
+                          <div className='mt-2  text-gray-100 text-lg md:text-[20px]'> 
                              <p> 
                                      Let’s talk about how I can help you accomplish your web goals. You can send me a mail directly.
                                 </p>

@@ -1,7 +1,47 @@
 const Categories = [
-    {
+
+       {
        id:1,
-       //  categories: "websites",
+         categories: "websites",
+        name: "Edushare",
+        img : "./images/edushare.png",
+       description: "A landing page designed for Connections in Academics to give students all across the nation a tuition-free online public school that lets them learn ",
+        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        link: "https://myedushare.netlify.app/",
+        github: "https://github.com/kayodeolowo/edushare-Landing-page"
+
+    },
+
+
+     {
+       id:2,
+         categories: "web apps",
+        name: "Movie Trailer",
+        img : "./images/movie.png",
+       description: "A Web App that displays movies and tv shows with their trailers ",
+        languages: ["Javascript,", "ReactJS,", "Axios,", "HTML5,", "CSS3"],
+        link: "https://k-streams.netlify.app/",
+        github: "https://github.com/kayodeolowo/movies-stream"
+
+    },
+
+    {
+       id:3,
+         categories: "websites",
+        name: "Spowse",
+        img : "./images/spowse.png",
+       description: "Get a spouse with spouse, bringing people together, Love Unites them. ",
+        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        link: "https://getspowse.com/",
+        github: "https://github.com/kayodeolowo"
+
+    },
+
+ 
+
+    {
+       id:4,
+         categories: "websites",
         name: "Tasty Foods",
         img : "./images/Tasty.png",
        description: "A Mobile Responsive Landing page for an Eatery  ",
@@ -12,8 +52,8 @@ const Categories = [
     },
 
      {
-       id:6,
-       //  categories: "websites",
+       id:5,
+         categories: "web apps",
         name: "Budget Calculator",
         img : "./images/budget.png",
        description: "A website for totaling your daily expenditures. ",
@@ -25,8 +65,8 @@ const Categories = [
 
    
     {
-        id:2,
-       //  categories: "websites",
+        id:6,
+         categories: "web apps",
         name: "Country Factzone",
         type: "Rest Api",
         img : "./images/country.png",
@@ -38,8 +78,8 @@ const Categories = [
     },
 
     {
-        id:3,
-       //  categories: "websites",
+        id:7,
+         categories: "websites",
         name: "Space Tourism",
         type: "JSON",
         img : "./images/spacetour.png",
@@ -51,8 +91,8 @@ const Categories = [
     },
 
      {
-       id:7,
-       //  categories: "websites",
+       id:8,
+         categories: "web apps",
         name: "My Portfolio",
          type: "Json",
         img : "./images/portf.png",
@@ -65,8 +105,8 @@ const Categories = [
 
 
     {
-       id:4,
-       //  categories: "websites",
+       id:9,
+         categories: "websites",
         name: "Eazy Bank",
         img : "./images/eazybank.png",
         description: "A responsive Banking landing page. ",
@@ -77,8 +117,8 @@ const Categories = [
     },
 
     {
-       id:5,
-       //  categories: "websites",
+       id:10,
+         categories: "web apps",
         name: "Currency Converter",
         type: "Rest API",
         img : "./images/converter.png",

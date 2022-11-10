@@ -29,27 +29,27 @@ const Projects = () => {
           <div> 
            <div>
               <h1  className='text-[20px] text-[#E0A040] font-Ubuntu font-bold'> 03. <span className='text-white'> My projects</span> </h1>
-              <p className='mt-4 text-gray-100 font-fira text-lg md:text-[20px]'> Here are some selected projects that showcase my skills, experiences and capabalities in Frontend web development.</p>
+              <p className='mt-4 text-gray-100  text-lg md:text-[20px]'> Here are some selected projects that showcase my skills, experiences and capabalities in Frontend web development.</p>
             </div> 
            </div>
 
-           {/* <div className='flex justify-center mt-6' > 
-                 <button onClick={(e)=> setIsActive(!isActive)}> 
-                  Filter by
+            {/* <div className='flex justify-center mt-6' > 
+                 <button className=' rounded-full py-1 px-4 bg-[#E0A040] text-black font-bold' onClick={(e)=> setIsActive(!isActive)}> 
+                  Filter Projects
                  </button>
-           </div> 
+           </div>  */}
       
-       {isActive && (
-        <div className='leading-[30px] lg:leading-[20px] flex flex-col justify-center mx-auto items-center w-[150px] lg:w-[100px] border-2 border-gray-400 bg-white rounded-lg text-black   '> 
+      
+        <div className='leading-[30px] lg:leading-[20px] flex  justify-center mx-auto items-center w-fit space-x-6 px-4 py-0.5 mt-8  bg-white rounded-lg text-black  '> 
       
          <button className=''  onClick={()=>setData(Categories)}>All </button>
         <button className='' onClick={()=>filterResult('web apps')}>Web apps </button>
         <button className='active:text-red-500' onClick={()=>filterResult('websites')}  >Websites </button>
          </div>
-       )}
-     */}
+      
+     
 
-      <div  className=' pt-4 sm:grid sm:gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-20  '> 
+      <div  className=' pt-4 sm:grid sm:gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-20 xl:grid-cols-4  '> 
             {data.map((values)=>{
               const{id, name, img,type, description, languages, link, github} = values;
               return(
@@ -58,7 +58,7 @@ const Projects = () => {
                       
                      <div data-aos="fade-up" className=''> 
                      
-                         <a href={link} > <img className=' w-full h-[180px] sm:h-[180px] lg:h-[150px] rounded-t-lg' src={img}/> </a>
+                         <a href={link} > <img className=' w-full h-[180px] sm:h-[180px] lg:h-[150px] rounded-t-lg' src={img} alt=""/> </a>
                          <div className='flex items-baseline justify-between'>
                              <h1 className='text-left pt-1 sm:pt-4 mx-2 font-Ubuntu font-semibold sm:text-[18px] lg:text-[15px] lg:mx-3 text-[18px] '> {name}  </h1>
                              <p className='mr-1 text-[12px] lg:text-[10px] uppercase font-bold text-gray-400'>{type} </p>
