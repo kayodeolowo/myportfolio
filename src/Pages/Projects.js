@@ -58,11 +58,11 @@ const Projects = () => {
       
      
 
-      <div  className=' pt-4 sm:grid sm:gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-20 xl:grid-cols-4  '> 
+      <div  className=' pt-4 sm:grid sm:gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-20 2xl:grid-cols-4   '> 
             {data.map((values)=>{
               const{id, name, img,type, description, languages, link, github} = values;
               return(
-                <section key={id}  className=' mt-8 mx-auto  w-10/12 sm:w-full bg-[#031A30]   rounded-lg border border-gray-500 shadow-lg hover:bg-[#142a3f] hover:-translate-y-2 duration-300 hover:ease-in transition hover:shadow-2xl 
+                <section key={id}  className=' mt-8 mx-auto  w-10/12 sm:w-full bg-[#072a4b]   rounded-lg  shadow-2xl hover:bg-[#142a3f] hover:-translate-y-2 duration-300 hover:ease-in transition hover:shadow-2xl hover:border-b-orange-600 hover:cursor-pointer hover:border-b-2
                 '> 
                       
                      <div data-aos="fade-up" className=''> 
@@ -77,7 +77,7 @@ const Projects = () => {
                       <p className='mt-2  mx-2 lg:mx-3 text-gray-500 text-[14px] lg:text-[11px]  '> {languages}</p>
                      </div>
                   
-                    <div data-aos="fade-right" className='flex flex-row justify-between mx-2 pt-6 lg:pt-4 pb-4 lg:mx-3'> 
+                    <div data-aos="fade-down" className='flex flex-row justify-between mx-2 pt-6 lg:pt-4 pb-4 lg:mx-3'> 
                        <a href={link}> <button className='flex mx-auto  px-2 lg:px-3 py-1 lg:py-1 text-[12px] lg:text-[11px] bg-[#E0A040] border-[#173047] hover:bg-[#d48308] rounded-lg text-black font-Ubuntu font-bold'> Vist Project <span className='ml-2 text-[20px] lg:text-[12px] lg:mt-[2px]'> <CgEnter/>  </span> </button>       </a> 
 
                          <a className='text-[30px] md:text-[25px] text-gray-400  hover:text-[#E0A040]'  href={github}> <BsGithub/> </a> 
