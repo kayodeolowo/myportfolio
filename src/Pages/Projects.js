@@ -58,7 +58,7 @@ const Projects = () => {
       
      
 
-      <div  className=' pt-4 sm:grid sm:gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-20 2xl:grid-cols-4   '> 
+      <div  className=' pt-4 sm:grid sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-20 2xl:grid-cols-4  max-w-[23rem] sm:max-w-fit mx-auto '> 
             {data.map((values)=>{
               const{id, name, img,type, description, languages, link, github} = values;
               return(
