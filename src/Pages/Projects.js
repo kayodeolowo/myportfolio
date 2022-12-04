@@ -32,7 +32,7 @@ const Projects = () => {
           <div> 
            <div>
               <h1  className='text-[20px] text-[#E0A040] font-Ubuntu font-bold'> 03. <span className='text-white'> My projects</span> </h1>
-              <p className='mt-4 text-gray-100  text-lg md:text-[20px]'> Here are some selected projects that showcase my skills, experiences and capabalities in Frontend web development.</p>
+              <p className='mt-4 text-gray-100  text-lg '> Here are some selected projects that showcase my skills, experiences and capabalities in Frontend web development.</p>
             </div> 
            </div>
 

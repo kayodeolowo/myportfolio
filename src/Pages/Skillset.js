@@ -11,7 +11,7 @@ const Skillset = () => {
         <div className='w-11/12 md:w-9/12  mx-auto max-w-[1280px]   pt-20 md:pt-24'> 
 
             <h1 className='text-[20px] text-[#E0A040] font-Ubuntu font-bold'> 02. <span className='text-white'> Skills </span>   </h1> 
-            <h2 className='  mt-2  text-gray-100 text-lg md:text-[20px]  leading-[35px]  '> With  years of experience in Frontend Web development, my proficient skills are </h2>
+            <h2 className='  mt-2  text-gray-100 text-lg   leading-[35px]  '> With  years of experience in Frontend Web development, my proficient skills are </h2>
             <div data-aos="flip-down" className='  w-full mx-auto px-4 grid grid-cols-4 lg:grid-cols-8   gap-14 mt-10 pb-4 '> 
                 <img className='w-[50px] cursor-pointer hover:-translate-y-3 duration-200' src="./images/html.png" alt=''/>
              <img className='w-[50px] cursor-pointer hover:-translate-y-3 duration-200' src="./images/css.png" alt=''/>
