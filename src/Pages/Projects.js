@@ -47,12 +47,12 @@ const Projects = () => {
       
          
           
-          <button className='active:underline active:text-[#E0A040]'  onClick={()=>setData(Categories)}>All </button>
+          <button className='active:underline active:text-[#E0A040] hover:text-[#E0A040]'  onClick={()=>setData(Categories)}>All </button>
          
-        <button className='active:underline active:text-[#E0A040]' onClick={()=>filterResult('web apps')}>Web Apps </button>
+        <button className='active:underline active:text-[#E0A040] hover:text-[#E0A040]' onClick={()=>filterResult('web apps')}>Web Apps </button>
 
         
-        <button  className='active:underline active:text-[#E0A040]'  onClick={()=>filterResult('websites')}  >Websites </button>
+        <button  className='active:underline active:text-[#E0A040] hover:text-[#E0A040]'  onClick={()=>filterResult('websites')}  >Websites </button>
       
          </div>
       

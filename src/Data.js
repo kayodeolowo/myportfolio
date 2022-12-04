@@ -1,7 +1,47 @@
 const Categories = [
 
-       {
+  
+    {
+       id:4,
+         categories: "websites",
+        name: "Ms lockdown",
+        img : "./images/mslockdown.png",
+       description: "Welcome webiste for a social media Application, ",
+        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        link: "https://mslockdown.netlify.app/",
+        github: "https://github.com/kayodeolowo"
+
+    },
+
+     {
        id:1,
+         categories: "web apps",
+        name: "Crypto Stats",
+        img : "./images/crypto.png",
+       description: " Web App were users can login and  check different crypto currencies with their individual data ",
+        languages: ["Javascript,", "ReactJS,", "Axios,", "firebase,", "HTML5,", "CSS3"],
+        link: "https://mycrypto-stats.netlify.app/",
+        github: "https://github.com/kayodeolowo/mycryptoStats"
+
+    },
+
+       {
+       id:12,
+         categories: "websites",
+        name: "Spowse",
+        img : "./images/spowse.png",
+       description: "Launching soon webiste for a social media Application, ",
+        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        link: "https://spwose.netlify.app/",
+        github: "https://github.com/kayodeolowo"
+
+    },
+
+
+
+
+       {
+       id:3,
          categories: "websites",
         name: "Edushare",
         img : "./images/edushare.png",
@@ -25,22 +65,13 @@ const Categories = [
 
     },
 
-    {
-       id:3,
-         categories: "websites",
-        name: "Spowse",
-        img : "./images/spowse.png",
-       description: "Get a spouse with spouse, bringing people together, Love Unites them. ",
-        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
-        link: "https://getspowse.com/",
-        github: "https://github.com/kayodeolowo"
+   
 
-    },
 
  
 
     {
-       id:4,
+       id:5,
          categories: "websites",
         name: "Tasty Foods",
         img : "./images/Tasty.png",
@@ -52,7 +83,7 @@ const Categories = [
     },
 
      {
-       id:5,
+       id:6,
          categories: "web apps",
         name: "Budget Calculator",
         img : "./images/budget.png",
@@ -65,7 +96,7 @@ const Categories = [
 
    
     {
-        id:6,
+        id:7,
          categories: "web apps",
         name: "Country Factzone",
         type: "Rest Api",
@@ -78,7 +109,7 @@ const Categories = [
     },
 
     {
-        id:7,
+        id:8,
          categories: "websites",
         name: "Space Tourism",
         type: "JSON",
@@ -91,7 +122,7 @@ const Categories = [
     },
 
      {
-       id:8,
+       id:9,
          categories: "web apps",
         name: "My Portfolio",
          type: "Json",
@@ -105,7 +136,7 @@ const Categories = [
 
 
     {
-       id:9,
+       id:10,
          categories: "websites",
         name: "Eazy Bank",
         img : "./images/eazybank.png",
@@ -117,7 +148,7 @@ const Categories = [
     },
 
     {
-       id:10,
+       id:11,
          categories: "web apps",
         name: "Currency Converter",
         type: "Rest API",
