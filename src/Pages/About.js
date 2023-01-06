@@ -15,9 +15,9 @@ const About = () => {
             </div> 
            <div className='lg:flex '> 
              <div className='lg:w-1/2 lg:text-base'> 
-                 <h1 className='text-gray-100  text-lg      mt-2 font-normal   leading-snug'  > I am a positive, enthusiastic, and competent Web Developer, who over the years, has built up a diverse range of skills and attributes, that has made me a devoted professional. Working with modern technologies such as Javascript Es6+, React.js, HTML5, CSS3 and a host of others, i have the Ability to deliver quality results while collaborating in a rapidly changing work environment and team compositions.
-                 <h1 className='mt-1  tracking-wide leading-snug'>  As a Web Developer, I work hard to ensure my skills are up to date, and this has helped me to Develop and build fully responsive websites and web applications using latest technologies while consistently receiving high user experience scores for all my projects. </h1> </h1>
-                 
+                 <h1 className='text-gray-100  text-lg      mt-2 font-normal   leading-snug'  > I am a positive, enthusiastic, and competent Web Developer, who over the years, has built up a diverse range of skills and attributes, that has made me a devoted professional. Working with modern technologies such as Javascript Es6+, React.js, Next.Js, HTML5, CSS3 and a host of others.  I constantly improve my knowledge about the technologies and tools required for a better output thereby I have a proven track record of success. 
+               
+               </h1>
 
                </div>
 
