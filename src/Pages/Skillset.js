@@ -12,7 +12,7 @@ const Skillset = () => {
 
             <h1 className='text-[20px] text-[#E0A040] font-Ubuntu font-bold'> 02. <span className='text-white'> Skills </span>   </h1> 
             <h2 className='  mt-2  text-gray-100 text-lg   leading-[35px]  '> With  years of experience in Frontend Web development, my proficient skills are </h2>
-            <div data-aos="zoom-in-down" className='  w-full mx-auto px-4 grid grid-cols-3 lg:grid-cols-5  gap-14 mt-10 pb-4 '> 
+            <div data-aos="zoom-in-down" className='  w-fit lg:w-full mx-auto px-4 grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7  gap-14 mt-10 pb-4 '> 
                
                 <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='h-8' src="./images/html.png" alt=''/> 
@@ -37,6 +37,11 @@ const Skillset = () => {
                  <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 ' src="./images/javascript.png" alt=''/> 
                     <h1 className='text-white mt-1 text-xs'> Javascript </h1>
+                </div>
+
+                <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+                    <img className='w-8 ' src="./images/typescript.png" alt=''/> 
+                    <h1 className='text-white mt-1 text-xs'> Typescript </h1>
                 </div>
 
                  <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 

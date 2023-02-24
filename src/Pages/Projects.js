@@ -60,7 +60,7 @@ const Projects = () => {
 
       <div  className=' pt-4 sm:grid sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-20 2xl:grid-cols-4  max-w-[23rem] sm:max-w-fit mx-auto '> 
             {data.map((values)=>{
-              const{id, name, img,type, description, languages, link, github} = values;
+              const{id, name, img,type, description, languages, link, github,data} = values;
               return(
                 <section key={id}  className=' mt-8 mx-auto  w-10/12 sm:w-full bg-[#072a4b]   rounded-lg  shadow-2xl hover:bg-[#142a3f] hover:-translate-y-2 duration-300 hover:ease-in transition hover:shadow-2xl hover:border-b-orange-600 hover:cursor-pointer hover:border-b-2
                 '> 
@@ -70,7 +70,7 @@ const Projects = () => {
                          <a href={link} > <img className=' w-full h-[180px] sm:h-[180px] lg:h-[150px] rounded-t-lg' src={img} alt=""/> </a>
                          <div className='flex items-baseline justify-between'>
                              <h1 className='text-left pt-1 sm:pt-4 mx-2 font-Ubuntu font-semibold sm:text-[18px] lg:text-[15px] lg:mx-3 text-[18px] '> {name}  </h1>
-                             <p className='mr-1 text-[12px] lg:text-[10px] uppercase font-bold text-gray-400'>{type} </p>
+                             <p className='mr-1 text-sm   font-bold text-red-500'>{data} </p>
                          </div>
                      
                       <p className='mt-3 mx-2 lg:mx-3 font-mono text-[14px] lg:text-[12px] lg:mt-1  sm:h-[90px] lg:h-[70px]  '> {description } </p>

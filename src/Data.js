@@ -1,12 +1,25 @@
 const Categories = [
 
-  
+    {
+       id:13,
+         categories: "web apps",
+        name: "KrayaStores",
+        img : "./images/ecom.png",
+       description: "An E-commerce website for shopping ",
+        languages: ["Typescript,", "ReactJS,", "HTML5,", "CSS3"],
+        link: "https://krayastores.netlify.app/",
+        github: "https://github.com/kayodeolowo/e-commerce",
+        data: "Rest Api"
+
+    },
+
+
     {
        id:4,
          categories: "websites",
         name: "Ms lockdown",
         img : "./images/mslockdown.png",
-       description: "Welcome webiste for a social media Application, ",
+       description: "Website built for a social media Startup ",
         languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
         link: "https://mslockdown.netlify.app/",
         github: "https://github.com/kayodeolowo"
@@ -21,7 +34,8 @@ const Categories = [
        description: " Web App were users can login and  check different crypto currencies with their individual data ",
         languages: ["Javascript,", "ReactJS,", "Axios,", "firebase,", "HTML5,", "CSS3"],
         link: "https://mycrypto-stats.netlify.app/",
-        github: "https://github.com/kayodeolowo/mycryptoStats"
+        github: "https://github.com/kayodeolowo/mycryptoStats",
+        data: "Rest Api"
 
     },
 
@@ -61,7 +75,8 @@ const Categories = [
        description: "A Web App that displays movies and tv shows with their trailers ",
         languages: ["Javascript,", "ReactJS,", "Axios,", "HTML5,", "CSS3"],
         link: "https://k-streams.netlify.app/",
-        github: "https://github.com/kayodeolowo/movies-stream"
+        github: "https://github.com/kayodeolowo/movies-stream",
+        data: "Rest Api"
 
     },
 
@@ -90,7 +105,8 @@ const Categories = [
        description: "A website for totaling your daily expenditures. ",
         languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
         link: "https://mybudgets-calculator.netlify.app/",
-        github: "https://github.com/kayodeolowo/expenses_Calculator"
+        github: "https://github.com/kayodeolowo/expenses_Calculator",
+        data: "JSon"
 
     },
 
@@ -104,7 +120,8 @@ const Categories = [
         description: "This site displays all continents, countries and their details from an api. ",
          languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3" ],
         link: "https://countries-facts.netlify.app/",
-        github: "https://github.com/kayodeolowo/Country-factsZone"
+        github: "https://github.com/kayodeolowo/Country-factsZone",
+        data: "Rest Api"
 
     },
 
@@ -117,7 +134,8 @@ const Categories = [
         description: "Space Tourism website with details about space Trips. ",
          languages: ["Javascript,","ReactJS,", "HTML5,", "CSS3"],
         link: "https://our-space-launch.netlify.app",
-        github: "https://github.com/kayodeolowo/Space-Tour"
+        github: "https://github.com/kayodeolowo/Space-Tour",
+        data: "JSon"
 
     },
 
@@ -130,7 +148,8 @@ const Categories = [
        description: "Hi Welcome to my portfolio. ",
         languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
         link: "https://kayodeolowo.netlify.app/",
-        github: "https://github.com/kayodeolowo/myportfolio"
+        github: "https://github.com/kayodeolowo/myportfolio",
+        data: "JSon"
 
     },
 
@@ -156,7 +175,8 @@ const Categories = [
        description: "Web App built with the functionality of Accurately converting currencies. ",
         languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
         link: "https://my-currencies-converter.netlify.app/",
-        github: "https://github.com/kayodeolowo/currency-converter"
+        github: "https://github.com/kayodeolowo/currency-converter",
+        data: "Rest Api"
 
     },
 

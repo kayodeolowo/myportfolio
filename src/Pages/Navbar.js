@@ -27,18 +27,21 @@ const Navbar = () => {
             <div className='flex  w-11/12 max-w-[1280px] mx-auto justify-between '>
                     <div className='' >
                 
-                        <Link to='#'>    <h1 className=' text-gray-300 text-[30px] font-Source font-semibold'> KO<span className='text-[35px]'> </span> </h1> </Link>
+                        <Link to='#'>   <div className='flex items-center'> 
+                             <h1 className='  text-[30px] text-[#E0A040] font-Source font-semibold'> K.O </h1>
+                         <img className='h-8 ml-2 mt-1' src='./images/logoi.png' alt=''/>  
+                        </div> </Link>
                 
                      </div> 
 
               
              <div   className='  '> 
               <ul  data-aos="fade-down" className=' hidden md:flex text-base    mt-4  text-white font-mono  '> 
-                      <Link to='#'  className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >   Home    </Link>
-                      <Link to='#about'  className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >   About    </Link>
-                      <Link to='#skills' className='md:mx-3 hover:text-[#E0A040] hover:-translate-x-1 duration-200 ' >    Skills   </Link>
-                      <Link to='#projects' className='md:mx-3 hover:text-[#E0A040]   hover:-translate-x-1 duration-200' >   Projects    </Link>
-                      <Link to='#contact' className='md:mx-3 hover:text-[#E0A040]  hover:-translate-x-1 duration-200' >     Contact  </Link> 
+                      <Link to='#'  className='md:mx-3 hover:text-[#E0A040] transition ease-in duration-300 ' >   Home    </Link>
+                      <Link to='#about'  className='md:mx-3 hover:text-[#E0A040] transition ease-in duration-300 ' >   About    </Link>
+                      <Link to='#skills' className='md:mx-3 hover:text-[#E0A040] transition ease-in duration-300 ' >    Skills   </Link>
+                      <Link to='#projects' className='md:mx-3 hover:text-[#E0A040]   transition ease-in duration-300' >   Projects    </Link>
+                      <Link to='#contact' className='md:mx-3 hover:text-[#E0A040]  transition ease-in duration-300' >     Contact  </Link> 
                         </ul>
             </div>    
             
