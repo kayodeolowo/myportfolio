@@ -39,17 +39,17 @@ const Categories = [
 
     },
 
-       {
-       id:12,
-         categories: "websites",
-        name: "Spowse",
-        img : "./images/spowse.png",
-       description: "Launching soon webiste for a social media Application, ",
-        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
-        link: "https://spwose.netlify.app/",
-        github: "https://github.com/kayodeolowo"
+    //    {
+    //    id:12,
+    //      categories: "websites",
+    //     name: "Spowse",
+    //     img : "./images/spowse.png",
+    //    description: "Launching soon webiste for a social media Application, ",
+    //     languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+    //     link: "https://spwose.netlify.app/",
+    //     github: "https://github.com/kayodeolowo"
 
-    },
+    // },
 
 
 
