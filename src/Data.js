@@ -13,6 +13,19 @@ const Categories = [
 
     },
 
+    {
+      id:14,
+        categories: "web apps",
+       name: "Marketie",
+       img : "./images/dashboard.jpg",
+      description: "Sales dashboard that provides real-time details on sales performance, Earnings, top-selling products and others ",
+       languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+       link: "https://sales-dahsboard.netlify.app/dashboard",
+       github: "https://github.com/kayodeolowo",
+       data: "Json"
+
+   },
+
 
     {
        id:4,
@@ -31,7 +44,7 @@ const Categories = [
          categories: "web apps",
         name: "Crypto Stats",
         img : "./images/crypto.png",
-       description: " Web App were users can login and  check different crypto currencies with their individual data ",
+       description: " Web App were users can check different Live crypto currencies with their individual data ",
         languages: ["Javascript,", "ReactJS,", "Axios,", "firebase,", "HTML5,", "CSS3"],
         link: "https://mycrypto-stats.netlify.app/",
         github: "https://github.com/kayodeolowo/mycryptoStats",
@@ -59,7 +72,7 @@ const Categories = [
          categories: "websites",
         name: "Edushare",
         img : "./images/edushare.png",
-       description: "An Educationals landing page for a tuition-free online public school ",
+       description: "An Educational landing page for a tuition-free online public school ",
         languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
         link: "https://myedushare.netlify.app/",
         github: "https://github.com/kayodeolowo/edushare-Landing-page"
