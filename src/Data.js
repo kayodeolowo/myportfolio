@@ -6,7 +6,7 @@ const Categories = [
         name: "KrayaStores",
         img : "./images/ecom.png",
        description: "An E-commerce website for shopping ",
-        languages: ["Typescript,", "ReactJS,", "HTML5,", "CSS3"],
+        languages: ["Typescript,", "ReactJS,"],
         link: "https://krayastores.netlify.app/",
         github: "https://github.com/kayodeolowo/e-commerce",
         data: "Rest Api"
@@ -19,7 +19,7 @@ const Categories = [
        name: "Marketie",
        img : "./images/dashboard.jpg",
       description: "Sales dashboard that provides real-time details on sales performance, Earnings, top-selling products and others ",
-       languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+       languages: ["Javascript,", "ReactJS,"],
        link: "https://sales-dahsboard.netlify.app/dashboard",
        github: "https://github.com/kayodeolowo",
        data: "Json"
@@ -33,7 +33,7 @@ const Categories = [
         name: "Ms lockdown",
         img : "./images/mslockdown.png",
        description: "Website built for a social media Startup ",
-        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        languages: ["Javascript,", "ReactJS,"],
         link: "https://mslockdown.netlify.app/",
         github: "https://github.com/kayodeolowo"
 
@@ -45,7 +45,7 @@ const Categories = [
         name: "Crypto Stats",
         img : "./images/crypto.png",
        description: " Web App were users can check different Live crypto currencies with their individual data ",
-        languages: ["Javascript,", "ReactJS,", "Axios,", "firebase,", "HTML5,", "CSS3"],
+        languages: ["Javascript,", "ReactJS,",  "firebase,"],
         link: "https://mycrypto-stats.netlify.app/",
         github: "https://github.com/kayodeolowo/mycryptoStats",
         data: "Rest Api"
@@ -58,7 +58,7 @@ const Categories = [
         name: "ArbFurbo",
         img : "./images/arb.jpg",
        description: "Web 3 web app that operates on top of a decentralized network and utilizes blockchain technology",
-        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        languages: ["Javascript,", "ReactJS,", ],
         link: "https://www.arbfurbo.wtf/",
         github: "https://github.com/kayodeolowo"
 
@@ -73,7 +73,7 @@ const Categories = [
         name: "Edushare",
         img : "./images/edushare.png",
        description: "An Educational landing page for a tuition-free online public school ",
-        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        languages: ["Javascript,", "ReactJS,", ],
         link: "https://myedushare.netlify.app/",
         github: "https://github.com/kayodeolowo/edushare-Landing-page"
 
@@ -86,7 +86,7 @@ const Categories = [
         name: "Movie Trailer",
         img : "./images/movie.png",
        description: "A Web App that displays movies and tv shows with their trailers ",
-        languages: ["Javascript,", "ReactJS,", "Axios,", "HTML5,", "CSS3"],
+        languages: ["Javascript,", "ReactJS,",],
         link: "https://k-streams.netlify.app/",
         github: "https://github.com/kayodeolowo/movies-stream",
         data: "Rest Api"
@@ -104,7 +104,7 @@ const Categories = [
         name: "Tasty Foods",
         img : "./images/Tasty.png",
        description: "A Mobile Responsive Landing page for an Eatery  ",
-        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        languages: ["Javascript,", "ReactJS,", ],
         link: "https://tasty-foodies.netlify.app/",
         github: "https://github.com/kayodeolowo/foodweb"
 
@@ -116,7 +116,7 @@ const Categories = [
         name: "Budget Calculator",
         img : "./images/budget.png",
        description: "A website for totaling your daily expenditures. ",
-        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        languages: ["Javascript,", "ReactJS,", ],
         link: "https://mybudgets-calculator.netlify.app/",
         github: "https://github.com/kayodeolowo/expenses_Calculator",
         data: "JSon"
@@ -131,7 +131,7 @@ const Categories = [
         type: "Rest Api",
         img : "./images/country.png",
         description: "This site displays all continents, countries and their details from an api. ",
-         languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3" ],
+         languages: ["Javascript,", "ReactJS,",  ],
         link: "https://countries-facts.netlify.app/",
         github: "https://github.com/kayodeolowo/Country-factsZone",
         data: "Rest Api"
@@ -145,7 +145,7 @@ const Categories = [
         type: "JSON",
         img : "./images/spacetour.png",
         description: "Space Tourism website with details about space Trips. ",
-         languages: ["Javascript,","ReactJS,", "HTML5,", "CSS3"],
+         languages: ["Javascript,","ReactJS,", ],
         link: "https://our-space-launch.netlify.app",
         github: "https://github.com/kayodeolowo/Space-Tour",
         data: "JSon"
@@ -159,7 +159,7 @@ const Categories = [
          type: "Json",
         img : "./images/portf.png",
        description: "Hi Welcome to my portfolio. ",
-        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        languages: ["Javascript,", "ReactJS,", ],
         link: "https://kayodeolowo.netlify.app/",
         github: "https://github.com/kayodeolowo/myportfolio",
         data: "JSon"
@@ -173,7 +173,7 @@ const Categories = [
         name: "Eazy Bank",
         img : "./images/eazybank.png",
         description: "A responsive Banking landing page. ",
-         languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+         languages: ["Javascript,", "ReactJS,", ],
         link: "https://my-eazy-bank.netlify.app/",
         github: "https://github.com/kayodeolowo/easebank"
 
@@ -186,7 +186,7 @@ const Categories = [
         type: "Rest API",
         img : "./images/converter.png",
        description: "Web App built with the functionality of Accurately converting currencies. ",
-        languages: ["Javascript,", "ReactJS,", "HTML5,", "CSS3"],
+        languages: ["Javascript,", "ReactJS,", ],
         link: "https://my-currencies-converter.netlify.app/",
         github: "https://github.com/kayodeolowo/currency-converter",
         data: "Rest Api"

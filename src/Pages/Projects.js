@@ -58,7 +58,7 @@ const Projects = () => {
       
      
 
-      <div  className=' pt-4 sm:grid sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-20 2xl:grid-cols-4  max-w-[23rem] sm:max-w-fit mx-auto '> 
+      <div  className=' pt-4 sm:grid sm:gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 2xl:grid-cols-4  max-w-[20rem] sm:max-w-fit mx-auto '> 
             {data.map((values)=>{
               const{id, name, img,type, description, languages, link, github,data} = values;
               return(
@@ -67,20 +67,20 @@ const Projects = () => {
                       
                      <div data-aos="fade-up" className=''> 
                      
-                         <a href={link} > <img className=' w-full h-[180px] sm:h-[180px] lg:h-[150px] rounded-t-lg' src={img} alt=""/> </a>
+                         <a href={link} > <img className=' w-full h-[160px] sm:h-[160px] lg:h-[120px] rounded-t-lg' src={img} alt=""/> </a>
                          <div className='flex items-baseline justify-between'>
-                             <h1 className='text-left pt-1 sm:pt-4 mx-2 font-Ubuntu font-semibold sm:text-[18px] lg:text-[15px] lg:mx-3 text-[18px] '> {name}  </h1>
+                             <h1 className='text-left pt-1 sm:pt-1 mx-2 font-Ubuntu font-semibold sm:text-[18px] lg:text-[15px] lg:mx-3 text-[18px] '> {name}  </h1>
                              <p className='mr-1 text-sm   font-bold text-red-500'>{data} </p>
                          </div>
                      
-                      <p className='mt-3 mx-2 lg:mx-3 font-mono text-[14px] lg:text-[12px] lg:mt-1  sm:h-[90px] lg:h-[70px]  '> {description } </p>
-                      <p className='mt-2  mx-2 lg:mx-3 text-gray-500 text-[14px] lg:text-[11px]  '> {languages}</p>
+                      {/* <p className='mt-3 mx-2 lg:mx-3 font-mono text-[14px] lg:text-[12px] lg:mt-1  sm:h-[90px] lg:h-[70px]  '> {description } </p> */}
+                      <p className='mt-1  mx-2 lg:mx-3 text-gray-500 text-[14px] lg:text-[11px]  '> {languages}</p>
                      </div>
                   
-                    <div data-aos="fade-down" className='flex flex-row justify-between mx-2 pt-6 lg:pt-4 pb-4 lg:mx-3'> 
-                       <a href={link}> <button className='flex mx-auto  px-2 lg:px-3 py-1 lg:py-1 text-[12px] lg:text-[11px] bg-[#E0A040] border-[#173047] hover:bg-[#d48308] rounded-lg text-black font-Ubuntu font-bold'> Vist Project <span className='ml-2 text-[20px] lg:text-[12px] lg:mt-[2px]'> <CgEnter/>  </span> </button>       </a> 
+                    <div data-aos="fade-down" className='flex flex-row justify-between mx-2 pt-2 lg:pt-4 pb-4 lg:mx-3'> 
+                       <a href={link}> <button className='flex mx-auto  px-1 lg:px-3 py-1 lg:py-1 text-[12px] lg:text-[11px] bg-[#E0A040] border-[#173047] hover:bg-[#d48308] rounded-md text-black font-Ubuntu font-bold'> Vist Project <span className='ml-2 text-[20px] lg:text-[12px] lg:mt-[2px]'> <CgEnter/>  </span> </button>       </a> 
 
-                         <a className='text-[30px] md:text-[25px] text-gray-400  hover:text-[#E0A040]'  href={github}> <BsGithub/> </a> 
+                         <a className='text-[1.5rem] md:text-[1.5rem] text-gray-400  hover:text-[#E0A040]'  href={github}> <BsGithub/> </a> 
                     </div>
                       
 
