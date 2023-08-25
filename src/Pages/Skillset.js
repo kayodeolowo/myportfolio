@@ -14,50 +14,50 @@ const Skillset = () => {
             <h2 className='  mt-2  text-gray-100 text-lg   leading-[35px]  '> With  years of experience in Frontend Web development, my proficient skills are </h2>
             <div data-aos="zoom-in-down" className='  w-fit lg:w-full mx-auto px-4 grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7  gap-14 mt-10 pb-4 '> 
                
-                <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+                <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='h-8' src="./images/html.png" alt=''/> 
                     <h1 className='text-white text-xs mt-1'> Html </h1>
                 </div>
 
-                 <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+                 <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8' src="./images/css.png" alt=''/> 
                     <h1 className='text-white mt-1 text-xs'> CSS </h1>
                 </div>
 
-                 <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+                 <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 mt-2' src="./images/tailwind.png" alt=''/> 
                     <h1 className='text-white mt-2 text-xs'> Tailwind </h1>
                 </div>
 
-                <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+                <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 ' src="./images/bootstraplogo.png" alt=''/> 
                     <h1 className='text-white mt-1 text-xs'> Bootstrap </h1>
                 </div>
 
-                 <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+                 <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 ' src="./images/javascript.png" alt=''/> 
                     <h1 className='text-white mt-1 text-xs'> Javascript </h1>
                 </div>
 
-                <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+                <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 ' src="./images/typescript.png" alt=''/> 
                     <h1 className='text-white mt-1 text-xs'> Typescript </h1>
                 </div>
 
-                 <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+                 <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 ' src="./images/react.png" alt=''/> 
                     <h1 className='text-white mt-1 text-xs  '> React  </h1>
                 </div>
-               <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+               <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 ' src="./images/next.png" alt=''/> 
                     <h1 className='text-white mt-1 text-xs'> Next </h1>
                 </div>
-               <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+               <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 ' src="./images/git.png" alt=''/> 
                     <h1 className='text-white mt-1 text-xs'> Git </h1>
                 </div>
 
-                 <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-4 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+                 <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 ' src="./images/github.png" alt=''/> 
                     <h1 className='text-white mt-1 text-xs'> Github </h1>
                 </div>
