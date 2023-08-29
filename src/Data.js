@@ -32,7 +32,7 @@ const Categories = [
      name: "Moon Republic",
      img : "./images/moonrep.jpg",
      languages: ["Javascript", "ReactJS"],
-     link: "https://moonrepublic.netlify.app/",
+     link: "https://moonrepublic.io/",
      github: "https://github.com/kayodeolowo",
      data: "Json"
 
