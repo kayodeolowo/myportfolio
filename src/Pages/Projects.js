@@ -58,20 +58,20 @@ const Projects = () => {
 
 
 
-        <div className=' pt-4 sm:grid sm:gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 2xl:grid-cols-4  max-w-[20rem] sm:max-w-fit mx-auto '>
+        <div className=' pt-4 sm:grid sm:gap-8 sm:grid-cols-2 lg:grid-cols-4  2xl:grid-cols-5 lg:gap-x-8 2xl:grid-cols-4  max-w-[20rem] sm:max-w-fit mx-auto '>
           {data.map((values) => {
             const { id, name, img, type, description, languages, link, github, data } = values;
             return (
-              <section key={id} className=' mt-8 mx-auto  w-10/12 sm:w-full bg-[#072a4b]   rounded-lg  shadow-2xl hover:bg-[#142a3f]  duration-300 hover:ease-in transition hover:shadow-2xl hover:border-b-orange-600 hover:cursor-pointer hover:border-b-1
+              <section key={id} className=' mt-8 mx-auto  w-10/12 sm:w-full bg-[#072a4b]   rounded-lg  shadow-2xl hover:bg-[#2b3b4b]  duration-300 hover:ease-in transition hover:shadow-2xl  hover:cursor-pointer 
                 '>
 
                 <div  className=''>
 
-                  <a href={link} > <img data-aos="fade-down" className=' w-full h-[160px] sm:h-[160px] lg:h-[120px] rounded-t-lg' src={img} alt="" /> </a>
+                  <a href={link} target='_blank' > <img data-aos="fade-down" className=' w-full h-[160px] sm:h-[160px] lg:h-[120px] rounded-t-lg' src={img} alt="" /> </a>
                   <div data-aos="zoom-in" className='flex  items-center justify-between'>
-                    <h1 className='text-left pt-1 sm:pt-1 mx-2 font-Ubuntu font-semibold sm:text-[18px] lg:text-[15px] lg:mx-2 text-[18px] '> {name}  </h1>
+                   <a href={link} target='_blank' >  <h1 className='text-left pt-1 sm:pt-1 mx-2 font-Ubuntu font-semibold sm:text-[18px] lg:text-[15px] lg:mx-2 text-[18px] hover:text-[#e7b467]'> {name}  </h1> </a>
                     {/* <a className='text-[1.2rem] mr-2   text-gray-400  hover:text-[#E0A040]' href={github}> <BsGithub /> </a> */}
-                    <a href={link}> <button className='flex mx-auto  px-2 mr-2  text-[12px] lg:text-[11px] bg-[#d48308] border-[#173047] hover:bg-[#e7b467] rounded-md text-black text-xs font-semibold '> Link  </button>       </a>
+                    <a href={link} target='_blank'> <button className='flex mx-auto  px-2 mr-2  text-[12px] lg:text-[11px] bg-[#d48308] border-[#173047] hover:bg-[#e7b467] rounded-md text-black text-xs font-semibold '> Link  </button>       </a>
                   </div>
 
                   {/* <p className='mt-3 mx-2 lg:mx-3 font-mono text-[14px] lg:text-[12px] lg:mt-1  sm:h-[90px] lg:h-[70px]  '> {description } </p> */}

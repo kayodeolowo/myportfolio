@@ -26,6 +26,18 @@ const Categories = [
 
    },
 
+   {
+    id:15,
+      categories: "web apps",
+     name: "Moon Republic",
+     img : "./images/moonrep.jpg",
+     languages: ["Javascript", "ReactJS"],
+     link: "https://moonrepublic.netlify.app/",
+     github: "https://github.com/kayodeolowo",
+     data: "Json"
+
+ },
+
 
     {
        id:4,
@@ -45,7 +57,7 @@ const Categories = [
         name: "Crypto Stats",
         img : "./images/crypto.png",
        description: " Web App were users can check different Live crypto currencies with their individual data ",
-        languages: ["Javascript", "ReactJS",  "firebase", "API"],
+        languages: ["Javascript", "ReactJS",  "Firebase", "API"],
         link: "https://mycrypto-stats.netlify.app/",
         github: "https://github.com/kayodeolowo/mycryptoStats",
         data: "Rest Api"
@@ -86,7 +98,7 @@ const Categories = [
         name: "Movie Trailer",
         img : "./images/movie.png",
        description: "A Web App that displays movies and tv shows with their trailers ",
-        languages: ["Javascript", "ReactJS", "Context Api"],
+        languages: ["Javascript", "API", "ReactJS" , "API"],
         link: "https://k-streams.netlify.app/",
         github: "https://github.com/kayodeolowo/movies-stream",
         data: "Rest Api"
@@ -131,7 +143,7 @@ const Categories = [
         type: "Rest Api",
         img : "./images/country.png",
         description: "This site displays all continents, countries and their details from an api. ",
-         languages: ["Javascript", "ReactJS",  ],
+         languages: ["Javascript", "ReactJS", "API" ],
         link: "https://countries-facts.netlify.app/",
         github: "https://github.com/kayodeolowo/Country-factsZone",
         data: "Rest Api"
@@ -179,20 +191,20 @@ const Categories = [
 
     },
 
-    {
-       id:11,
-         categories: "web apps",
-        name: "Currency Converter",
-        type: "Rest API",
-        img : "./images/converter.png",
-       description: "Web App built with the functionality of Accurately converting currencies. ",
-        languages: ["Javascript", "ReactJS", "Api" ],
+    // {
+    //    id:11,
+    //      categories: "web apps",
+    //     name: "Currency Converter",
+    //     type: "Rest API",
+    //     img : "./images/converter.png",
+    //    description: "Web App built with the functionality of Accurately converting currencies. ",
+    //     languages: ["Javascript", "ReactJS", "Api" ],
         
-        link: "https://my-currencies-converter.netlify.app/",
-        github: "https://github.com/kayodeolowo/currency-converter",
-        data: "Rest Api"
+    //     link: "https://my-currencies-converter.netlify.app/",
+    //     github: "https://github.com/kayodeolowo/currency-converter",
+    //     data: "Rest Api"
 
-    },
+    // },
 
    
 

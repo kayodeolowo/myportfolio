@@ -46,12 +46,18 @@ const Skillset = () => {
 
                  <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 ' src="./images/react.png" alt=''/> 
-                    <h1 className='text-white mt-1 text-xs  '> React  </h1>
+                    <h1 className='text-white mt-1 text-xs  '> React Js </h1>
                 </div>
                <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 ' src="./images/next.png" alt=''/> 
-                    <h1 className='text-white mt-1 text-xs'> Next </h1>
+                    <h1 className='text-white mt-1 text-xs'> Next Js </h1>
                 </div>
+
+                <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
+                    <img className='w-8 ' src="./images/redux.png" alt=''/> 
+                    <h1 className='text-white mt-1 text-xs'> Redux </h1>
+                </div>
+
                <div className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'> 
                     <img className='w-8 ' src="./images/git.png" alt=''/> 
                     <h1 className='text-white mt-1 text-xs'> Git </h1>
