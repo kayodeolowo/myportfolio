@@ -1,6 +1,22 @@
 const Categories = [
 
+
+  {
+    id:15,
+      categories: "web apps",
+     name: "Moon Republic",
+     img : "./images/moonrep.jpg",
+     languages: ["Javascript", "ReactJS"],
+     link: "https://moonrepublic.io/",
+     github: "https://github.com/kayodeolowo",
+     data: "Json"
+
+ },
+
+
+
     {
+      
        id:13,
          categories: "web apps",
         name: "KrayaStores",
@@ -27,16 +43,18 @@ const Categories = [
    },
 
    {
-    id:15,
+    id:16,
       categories: "web apps",
-     name: "Moon Republic",
-     img : "./images/moonrep.jpg",
-     languages: ["Javascript", "ReactJS"],
-     link: "https://moonrepublic.io/",
+     name: "  Begreat Finance",
+     img : "./images/begreat.jpg",
+     languages: ["Javascript", "Next JS", "Redux"],
+     link: "https://begreat.finance/",
      github: "https://github.com/kayodeolowo",
      data: "Json"
+  
+  },
 
- },
+   
 
 
     {
