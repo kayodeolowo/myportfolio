@@ -67,7 +67,7 @@ const Contact = () => {
               <input
                 className="mb-4  py-3 px-2 rounded-lg bg-[#27253b] font-Inconsolata font-semibold focus:border-red-400 outline-[#E0A040] outline-0"
                 type="text"
-                placeholder="Full name"
+                placeholder="FullName"
                 name="user_name"
                 required
               />
