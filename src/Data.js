@@ -55,7 +55,18 @@ const Categories = [
   },
 
    
+  {
+    id:2,
+      categories: "web apps",
+     name: "Movie Trailer",
+     img : "./images/movie.png",
+    description: "A Web App that displays movies and tv shows with their trailers ",
+     languages: ["Javascript", "ReactJS" , "API"],
+     link: "https://k-streams.netlify.app/",
+     github: "https://github.com/kayodeolowo/movies-stream",
+     data: "Rest Api"
 
+ },
 
     {
        id:4,
@@ -108,22 +119,6 @@ const Categories = [
         github: "https://github.com/kayodeolowo/edushare-Landing-page"
 
     },
-
-
-     {
-       id:2,
-         categories: "web apps",
-        name: "Movie Trailer",
-        img : "./images/movie.png",
-       description: "A Web App that displays movies and tv shows with their trailers ",
-        languages: ["Javascript", "API", "ReactJS" , "API"],
-        link: "https://k-streams.netlify.app/",
-        github: "https://github.com/kayodeolowo/movies-stream",
-        data: "Rest Api"
-
-    },
-
-   
 
 
  

@@ -2,10 +2,10 @@
 import React, { useEffect, useState } from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
-import {TbSend, TbBrandGmail} from  'react-icons/tb'
-import {FiTwitter} from 'react-icons/fi'
-import {FaLinkedin} from 'react-icons/fa'
-import {BsGithub} from 'react-icons/bs' 
+import { TbSend, TbBrandGmail } from 'react-icons/tb'
+import { FiTwitter } from 'react-icons/fi'
+import { FaLinkedin } from 'react-icons/fa'
+import { BsGithub } from 'react-icons/bs'
 import { HashLink as Link } from 'react-router-hash-link';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -52,7 +52,12 @@ const Contact = () => {
         <div className="lg:flex lg:flex-row">
           <div>
             <div className="mt-2 text-gray-100 text-lg md:text-[20px]">
-              <p>Let’s talk about how I can help you accomplish your web goals. You can send me a mail directly.</p>
+              <p>
+                Let's have a conversation about how I can turn your visions into captivating online realities.
+                Feel free to reach out to me via email to start a conversation.
+                Whether it's building a stunning website, optimizing user experiences,
+                or anything in between, I'm here to help. Looking forward to hearing
+                from you and exploring the exciting possibilities together!</p>
             </div>
             <form ref={form} onSubmit={sendEmail} className="flex flex-col mt-8">
               <input
@@ -141,5 +146,5 @@ const Contact = () => {
       <ToastContainer />
     </section>
   )
-                }
+}
 export default Contact;
