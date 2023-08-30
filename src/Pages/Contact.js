@@ -11,6 +11,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
+import {MdOutlineMail} from 'react-icons/md'
 
 
 
@@ -51,10 +52,13 @@ const Contact = () => {
 
         <div className="lg:flex lg:flex-row">
           <div>
-            <div className="mt-2 text-gray-100 text-lg md:text-[20px]">
-              <p>
+            <div className="mt-2 text-gray-100 text-lg ">
+              <p className='leading-8'>
                 Let's have a conversation about how I can turn your visions into captivating online realities.
-                Feel free to reach out to me via email to start a conversation.
+                Feel free to reach out to me via  <span className='font-semibold cursor-pointer hover:text-red-400 hover:border-b-red-400 translate duration-300 ease-out  text-[#E0A040] border-b-2 border-[#E0A040] '>  <a href="mailto:officialkayodeolowo@gmail.com">
+                  {' '}
+                  E-mail
+                </a>{' '} </span> to start a conversation.
                 Whether it's building a stunning website, optimizing user experiences,
                 or anything in between, I'm here to help. Looking forward to hearing
                 from you and exploring the exciting possibilities together!</p>
@@ -88,7 +92,7 @@ const Contact = () => {
                 required
               ></textarea>
               <button
-                className="bg-[#E0A040] transition ease-in hover:bg-red-400 duration-300 w-5/12 mx-auto rounded-lg py-2 text-black flex justify-center mt-8 font-Ubuntu font-bold"
+                className="bg-[#E0A040] transition ease-in hover:bg-red-400 duration-300 w-[50%] sm:w-[40%] md:w-[30%] mx-auto rounded-lg py-2 text-black flex justify-center items-center mt-8 font-Ubuntu font-bold"
                 type="submit"
                 disabled={isLoading}
               >
@@ -103,7 +107,7 @@ const Contact = () => {
                   </svg>
                 ) : (
                   <>
-                    Send me a mail <span className="ml-2 text-[20px]"> <TbSend /> </span>
+                    Send me a mail <span className="ml-2 text-[20px]"> <MdOutlineMail /> </span>
                   </>
                 )}
               </button>
