@@ -115,28 +115,28 @@ const Contact = () => {
           </div>
 
           <div className="">
-            <div data-aos="flip-down" className="flex justify-around lg:ml-40 lg:flex-col mx-auto mt-16 md:mt-2 w-3/4 text-center text-[25px] md:text-[30px] text-[#f7d19a] ">
-              <button className="hover:-translate-y-2 hover:text-red-400 duration-500 md:mt-20">
+            <div data-aos="flip-down" className="flex justify-around lg:ml-40 lg:flex-col mx-auto mt-16 md:mt-28 w-3/4 text-center text-[25px] md:text-[30px] text-[#f7d19a] ">
+              <button className="lg:mt-10 hover:text-red-400 duration-500 ">
                 <a href="https://twitter.com/Itz_kayman">
                   {' '}
                   <FiTwitter />
                 </a>
               </button>
-              <button className="lg:mt-10 hover:-translate-y-2 duration-500 hover:text-red-400">
+              <button className="lg:mt-10  duration-500 hover:text-red-400">
                 {' '}
                 <a href="https://www.linkedin.com/in/kayode-olowo-21a775124/">
                   {' '}
                   <FaLinkedin />
                 </a>{' '}
               </button>
-              <button className="lg:mt-10 hover:-translate-y-2 duration-500 hover:text-red-400">
+              <button className="lg:mt-10  duration-500 hover:text-red-400">
                 {' '}
                 <a href="https://github.com/kayodeolowo">
                   {' '}
                   <BsGithub />
                 </a>{' '}
               </button>
-              <button className="lg:mt-10 hover:-translate-y-2 duration-500 hover:text-red-400">
+              <button className="lg:mt-10  duration-500 hover:text-red-400">
                 {' '}
                 <a href="mailto:officialkayodeolowo@gmail.com">
                   {' '}
