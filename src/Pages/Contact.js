@@ -115,7 +115,7 @@ const Contact = () => {
           </div>
 
           <div className="">
-            <div data-aos="flip-down" className="flex justify-around lg:ml-40 lg:flex-col mx-auto mt-16 md:mt-28 w-3/4 text-center text-[25px] md:text-[30px] text-[#f7d19a] ">
+            <div data-aos="flip-down" className="flex justify-around lg:ml-40 lg:flex-col mx-auto mt-16 md:mt-[8rem] w-3/4 text-center text-[25px] md:text-[30px] text-[#f7d19a] ">
               <button className="lg:mt-10 hover:text-red-400 duration-500 ">
                 <a href="https://twitter.com/Itz_kayman">
                   {' '}
