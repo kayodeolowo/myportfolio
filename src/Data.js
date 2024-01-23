@@ -48,7 +48,7 @@ const Categories = [
     name: "  Begreat Finance",
     img: "./images/begreat.jpg",
     languages: ["Javascript", "Next JS", "Redux"],
-    link: "https://begreat.finance/",
+    link: "https://be-great-finance.netlify.app",
     github: "https://github.com/kayodeolowo",
     data: "Json"
 

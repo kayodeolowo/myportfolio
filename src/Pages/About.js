@@ -15,7 +15,7 @@ const About = () => {
         </div>
         <div className='lg:flex justify-between items-center '>
           <div className='lg:w-1/2 lg:text-base'>
-            <h1 className='text-gray-100  text-lg  font-normal   leading-8'  > I am a highly motivated and skilled Web Developer
+            <h1 className='text-gray-100  text-lg  font-normal xl:-mt-8  leading-8'  > I am a highly motivated and skilled Web Developer
               with a passion for my work. Throughout my career,
               I have cultivated a broad range of abilities and
               qualities that define me as a dedicated professional.
