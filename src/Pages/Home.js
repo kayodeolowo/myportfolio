@@ -12,7 +12,7 @@ const Home = () => {
                      
 
                     <Link to='https://www.linkedin.com/in/kayode-olowo-21a775124/' target='blank'>
-                    <h1 data-aos="zoom-in" className='md:-ml-2 mt-6 md:mt-10 text-4xl sm:text-6xl md:text-[5rem]  font-bold text-white font-Source sm:text-start transition ease-in hover:text-[#E0A040] cursor-pointer  duration-500'> kayode Olowo</h1>
+                    <h1 data-aos="zoom-in" className='md:-ml-2 mt-6 md:mt-10 text-4xl sm:text-6xl md:text-[5rem]  font-bold text-white font-Source sm:text-start transition ease-in hover:text-[#E0A040] cursor-pointer  duration-500'> Kayode Olowo</h1>
                     
                     </Link>
                    

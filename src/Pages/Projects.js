@@ -70,7 +70,7 @@ const Projects = () => {
                 <div className=''>
 
                   <a href={link} target='_blank' > <img data-aos="fade-down" className=' w-full h-[160px] sm:h-[160px] lg:h-[120px] rounded-t-lg' src={img} alt="" /> </a>
-                  <div data-aos="zoom-in" className='flex  items-center justify-between'>
+                  <div className='flex  items-center justify-between'>
                     <a href={link} target='_blank' >  <h1 className='text-left pt-1 sm:pt-1 mx-2 font-Ubuntu font-semibold sm:text-[18px] lg:text-[15px] lg:mx-2 text-[18px] hover:text-[#e7b467]'> {name}  </h1> </a>
                     {/* <a className='text-[1.2rem] mr-2   text-gray-400  hover:text-[#E0A040]' href={github}> <BsGithub /> </a> */}
                     <a href={link} target='_blank'> <button className='flex mx-auto  px-2 mr-2  text-[12px] lg:text-[11px] bg-[#d48308] border-[#173047] hover:bg-[#e7b467] rounded-md text-black text-xs font-semibold '> Link  </button>       </a>
@@ -78,7 +78,7 @@ const Projects = () => {
 
                   {/* <p className='mt-3 mx-2 lg:mx-3 font-mono text-[14px] lg:text-[12px] lg:mt-1  sm:h-[90px] lg:h-[70px]  '> {description } </p> */}
                   <div className='flex mt-2 justify-between items-center '>
-                    <p data-aos="zoom-in" className='ml-2 w-fit  text-white font-200 text-xs'>
+                    <p  className='ml-2 w-fit  text-white font-200 text-xs'>
                       {languages.map((language, index) => (
                         <span
                           key={index}

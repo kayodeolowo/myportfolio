@@ -87,7 +87,7 @@ const Categories = [
     img: "./images/crypto.png",
     description: " Web App were users can check different Live crypto currencies with their individual data ",
     languages: ["Javascript", "ReactJS", "Firebase", "API"],
-    link: "https://mycrypto-stats.netlify.app/",
+    link: "https://top-cryptostats.netlify.app/",
     github: "https://github.com/kayodeolowo/mycryptoStats",
     data: "Rest Api"
 
