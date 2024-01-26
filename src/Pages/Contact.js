@@ -65,21 +65,21 @@ const Contact = () => {
             </div>
             <form ref={form} onSubmit={sendEmail} className="flex flex-col mt-8">
               <input
-                className="mb-4  py-3 px-2 rounded-lg bg-[#27253b] font-Inconsolata font-semibold focus:border-red-400 outline-[#E0A040] outline-0"
+                className="mb-4 outline-none focus:bg-[#27253b]  py-3 px-2 rounded-lg bg-[#27253b] font-Inconsolata font-semibold focus:border-red-400 outline-[#E0A040] outline-0"
                 type="text"
                 placeholder="FullName"
                 name="user_name"
                 required
               />
               <input
-                className="mb-4 py-3 px-2 rounded-lg bg-[#27253b] font-Inconsolata font-semibold outline-[#E0A040] outline-0"
+                className="mb-4 py-3 px-2 rounded-lg focus:bg-[#27253b] bg-[#27253b] font-Inconsolata font-semibold outline-[#E0A040] outline-0"
                 type="email"
                 placeholder="Email"
                 required
                 name="user_email"
               />
               <input
-                className="mb-4  py-3 px-2 font-Inconsolata font-semibold rounded-lg bg-[#27253b] outline-[#E0A040] outline-0"
+                className="mb-4  py-3 px-2 font-Inconsolata focus:bg-[#27253b] font-semibold rounded-lg bg-[#27253b] outline-[#E0A040] outline-0"
                 type="text"
                 placeholder="Subject"
                 required
@@ -88,7 +88,7 @@ const Contact = () => {
               <textarea
                 name="message"
                 placeholder="Message"
-                className="mb-4  py-3 px-2 rounded-lg bg-[#27253b] h-[120px] outline-0 outline-[#E0A040]"
+                className="mb-4  py-3 px-2 rounded-lg focus:bg-[#27253b] bg-[#27253b] h-[120px] outline-0 outline-[#E0A040]"
                 required
               ></textarea>
               <button
