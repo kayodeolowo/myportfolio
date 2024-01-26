@@ -15,21 +15,30 @@ const About = () => {
         </div>
         <div className='lg:flex justify-between items-center '>
           <div className='lg:w-1/2 lg:text-base'>
-            <h1 className='text-gray-100  text-lg  font-normal xl:-mt-8  leading-8'  > I am a highly motivated and skilled Web Developer
-              with a passion for my work. Throughout my career,
+             {/* with a passion for my work. Throughout my career,
               I have cultivated a broad range of abilities and
               qualities that define me as a dedicated professional.
               My expertise lies in cutting-edge technologies such
               as Javascript ES6+, React.js, Next.js, HTML5, CSS3,
               and more.  My track record speaks
               for itself, showcasing a consistent history of successful
-              projects and accomplishments.
+              projects and accomplishments. */}
+            <h1 className='text-gray-100  text-lg  font-normal xl:-mt-8  leading-8'  > 
+             
+
+              Hey there! I'm a super motivated Web Developer who absolutely
+               loves what I do. Over the course of my career,
+                I've picked up a bunch of cool skills that make me a dedicated professional.
+                 I'm all about the latest tech, like Javascript ES6+,
+                  React.js, Next.js, HTML5, CSS3, and more. 
+                  My track record? Well, it's filled with numerous successful projects and achievements that I'm really proud of.
 
             </h1>
 
+
           </div>
 
-          <img className='  lg:w-[25rem] cursor-pointer mt-4 lg:mt-0 w-fit mx-auto lg:mx-0' src="./images/person.png" alt='' />
+          <img className='  lg:w-[25rem] cursor-pointer mt-4 lg:-mt-14 w-fit mx-auto lg:mx-0' src="./images/person.png" alt='' />
 
         </div>
         <a href={Resume} download>
