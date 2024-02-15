@@ -99,7 +99,7 @@ const Categories = [
     name: "ArbFurbo",
     img: "./images/arb.jpg",
     description: "Web 3 web app that operates on top of a decentralized network and utilizes blockchain technology",
-    languages: ["Javascript", "ReactJS",],
+    languages: ["Javascript", "NextJS",],
     link: "https://www.arbfurbo.wtf/",
     github: "https://github.com/kayodeolowo"
 
