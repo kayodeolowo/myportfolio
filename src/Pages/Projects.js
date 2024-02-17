@@ -45,18 +45,18 @@ const Projects = () => {
            </div>  */}
 
 
-        <div className='leading-[30px] lg:leading-[20px] flex  justify-center mx-auto items-center w-fit space-x-6 px-4 py-0.5 mt-8  bg-white rounded-lg text-black  '>
+        {/* <div className=' flex  justify-center mx-auto items-center w-fit space-x-6 px-6   py-2 mt-8  bg-[#152d46] rounded-full text-sm text-white font-semibold  '>
 
 
 
-          <button className='active:underline active:text-[#E0A040] hover:text-[#E0A040]' onClick={() => setData(Categories)}>All </button>
+          <button className=' hover:text-[#E0A040]' onClick={() => setData(Categories)}>All </button>
 
-          <button className='active:underline active:text-[#E0A040] hover:text-[#E0A040]' onClick={() => filterResult('web apps')}>Web Apps </button>
+          <button className=' hover:text-[#E0A040]' onClick={() => filterResult('web apps')}>Web Apps </button>
 
 
-          <button className='active:underline active:text-[#E0A040] hover:text-[#E0A040]' onClick={() => filterResult('websites')}  >Websites </button>
+          <button className=' hover:text-[#E0A040]' onClick={() => filterResult('websites')}  >Websites </button>
 
-        </div>
+        </div> */}
 
 
 
@@ -70,10 +70,10 @@ const Projects = () => {
                 <div className=''>
 
                   <a href={link} target='_blank' > <img  className=' w-full h-[160px] sm:h-[160px] lg:h-[120px] rounded-t-lg' src={img} alt="" /> </a>
-                  <div className='flex  items-center justify-between'>
+                  <div className='flex mt-1 items-center justify-between'>
                     <a href={link} target='_blank' >  <h1 className='text-left pt-1 sm:pt-1 mx-2 font-Ubuntu font-semibold sm:text-[18px] lg:text-[15px] lg:mx-2 text-[18px] hover:text-[#e7b467]'> {name}  </h1> </a>
                     {/* <a className='text-[1.2rem] mr-2   text-gray-400  hover:text-[#E0A040]' href={github}> <BsGithub /> </a> */}
-                    <a href={link} target='_blank'> <button className='flex mx-auto  px-2 mr-2  text-[12px] lg:text-[11px] bg-[#d48308] border-[#173047] hover:bg-[#e7b467] rounded-md text-black text-xs font-semibold '> Link  </button>       </a>
+                    <a href={link} target='_blank'> <button className='flex mx-auto  px-2 mr-2  text-[12px] lg:text-[11px] bg-[#d48308]  hover:bg-[#e7b467] rounded  text-black text-xs font-semibold '> Link  </button>       </a>
                   </div>
 
                   {/* <p className='mt-3 mx-2 lg:mx-3 font-mono text-[14px] lg:text-[12px] lg:mt-1  sm:h-[90px] lg:h-[70px]  '> {description } </p> */}

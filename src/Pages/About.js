@@ -26,7 +26,7 @@ const About = () => {
             <h1 className='text-gray-100  text-lg  font-normal xl:-mt-8  leading-8'  > 
              
 
-              Hey there! I'm a super motivated Web Developer who absolutely
+              I'm a super motivated Web Developer who absolutely
                loves what I do. Over the course of my career,
                 I've picked up a bunch of cool skills that make me a dedicated professional.
                  I'm all about the latest tech, like Javascript ES6+,
@@ -38,11 +38,11 @@ const About = () => {
 
           </div>
 
-          <img className='  lg:w-[25rem] cursor-pointer mt-4 lg:-mt-14 w-fit mx-auto lg:mx-0' src="./images/person.png" alt='' />
+          <img className='  lg:w-[25rem] cursor-pointer mt-4 lg:-mt-8 w-fit mx-auto lg:mx-0' src="./images/person.png" alt='' />
 
         </div>
         <a href={Resume} download>
-          <button className='flex mx-auto  mt-6 px-6 py-2 md:py-1 text-xl bg-[#E0A040] border-[#173047] rounded-lg text-black font-Ubuntu font-bold transition ease-in hover:bg-red-400  duration-300 ' >  My Resume <span className='ml-2 text-[30px]'> <AiOutlineCloudDownload /> </span>  </button>
+          <button className='flex mx-auto  mt-6 px-6 py-2 md:py-2 text-lg bg-[#152d46]  rounded-lg text-white font-Ubuntu font-bold transition ease-in hover:bg-[#28405b]  duration-300 ' >  My Resume <span className='ml-2 text-[30px]'> <AiOutlineCloudDownload /> </span>  </button>
         </a>
 
       </div>

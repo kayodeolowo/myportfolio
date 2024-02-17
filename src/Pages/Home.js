@@ -6,13 +6,13 @@ import { HashLink as Link } from 'react-router-hash-link';
 const Home = () => {
   return (
     <section className='w-full  ' id='home' >
-            <div className='w-11/12 md:w-9/12 mx-auto max-w-[1280px]  pt-[120px] '> 
-               <div className=''> 
-                     <h1 className='text-[#E0A040] text-2xl font-Inconsolata font-semibold'> Hi, my name is  </h1>
+            <div className='w-11/12 md:w-9/12 mx-auto max-w-[1280px]   pt-[120px] '> 
+               <div className='text-center'> 
+                     <h1 className='text-[#E0A040] text-2xl font-Inconsolata font-semibold'> Hello there, my name is  </h1>
                      
 
                     <Link to='https://www.linkedin.com/in/kayode-olowo-21a775124/' target='blank'>
-                    <h1 data-aos="zoom-in" className='md:-ml-2 mt-6 md:mt-10 text-4xl sm:text-6xl md:text-[5rem]  font-bold text-white font-Source sm:text-start transition ease-in hover:text-[#E0A040] cursor-pointer  duration-500'> Kayode Olowo</h1>
+                    <h1 data-aos="zoom-in" className=' mt-4 text-4xl sm:text-6xl md:text-[7rem]  font-bold text-white font-Source   text-center transition ease-in hover:text-[#E0A040] cursor-pointer  duration-500'> Kayode Olowo</h1>
                     
                     </Link>
                    

@@ -63,23 +63,23 @@ const Contact = () => {
                 or anything in between, I'm here to help. Looking forward to hearing
                 from you and exploring the exciting possibilities together!</p>
             </div>
-            <form ref={form} onSubmit={sendEmail} className="flex flex-col mt-8">
+            <form ref={form} onSubmit={sendEmail} className="flex flex-col mt-8 md:w-[60%] md:mx-auto">
               <input
-                className="mb-4 outline-none focus:bg-[#27253b]  py-3 px-2 rounded-lg bg-[#27253b] font-Inconsolata font-semibold focus:border-red-400 outline-[#E0A040] outline-0"
+                className="mb-4 outline-none focus:bg-[#27253b]  py-3 px-2 rounded-lg bg-[#27253b] font-Inconsolata font-semibold  outline-0"
                 type="text"
                 placeholder="FullName"
                 name="user_name"
                 required
               />
               <input
-                className="mb-4 py-3 px-2 rounded-lg focus:bg-[#27253b] bg-[#27253b] font-Inconsolata font-semibold outline-[#E0A040] outline-0"
+                className="mb-4 py-3 px-2 rounded-lg focus:bg-[#27253b] bg-[#27253b] font-Inconsolata font-semibold  outline-0"
                 type="email"
                 placeholder="Email"
                 required
                 name="user_email"
               />
               <input
-                className="mb-4  py-3 px-2 font-Inconsolata focus:bg-[#27253b] font-semibold rounded-lg bg-[#27253b] outline-[#E0A040] outline-0"
+                className="mb-4  py-3 px-2 font-Inconsolata focus:bg-[#27253b] font-semibold rounded-lg bg-[#27253b]  outline-0"
                 type="text"
                 placeholder="Subject"
                 required
@@ -88,63 +88,28 @@ const Contact = () => {
               <textarea
                 name="message"
                 placeholder="Message"
-                className="mb-4  py-3 px-2 rounded-lg focus:bg-[#27253b] bg-[#27253b] h-[120px] outline-0 outline-[#E0A040]"
+                className="mb-4  py-3 px-2 rounded-lg focus:bg-[#27253b] bg-[#27253b] h-[120px] outline-0 "
                 required
               ></textarea>
               <button
-                className="bg-[#E0A040] transition ease-in hover:bg-red-400 duration-300 w-[50%] sm:w-[40%] md:w-[30%] mx-auto rounded-lg py-2 text-black flex justify-center items-center mt-8 font-Ubuntu font-bold"
+                className="bg-[#152d46] transition ease-in hover:bg-[#28405b]   duration-300 w-[50%]  md:w-[30%] mx-auto rounded-lg py-2 text-white  flex justify-center items-center mt-2 font-Ubuntu font-semibold"
                 type="submit"
                 disabled={isLoading}
               >
                 {isLoading ? (
-                  <svg className="animate-spin mr-2 h-5 w-5 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                    <path
-                      className="opacity-75"
-                      fill="currentColor"
-                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647zm9-2.647a7.962 7.962 0 01-3 2.647V12c0-3.042 1.135-5.824 3-7.938l-3 2.647z"
-                    ></path>
-                  </svg>
+                  <>
+                  Sending..... <span className="ml-2 text-lg">  </span>
+                </>
                 ) : (
                   <>
-                    Send me a mail <span className="ml-2 text-[20px]"> <MdOutlineMail /> </span>
+                    Send  <span className="ml-2 text-lg">  </span>
                   </>
                 )}
               </button>
             </form>
           </div>
 
-          <div className="">
-            <div data-aos="flip-down" className="flex justify-around lg:ml-40 lg:flex-col mx-auto mt-16 md:mt-[8rem] w-3/4 text-center text-[25px] md:text-[30px] text-[#f7d19a] ">
-              <button className="lg:mt-10 hover:text-red-400 duration-500 ">
-                <a href="https://twitter.com/Itz_kayman">
-                  {' '}
-                  <FiTwitter />
-                </a>
-              </button>
-              <button className="lg:mt-10  duration-500 hover:text-red-400">
-                {' '}
-                <a href="https://www.linkedin.com/in/kayode-olowo-21a775124/">
-                  {' '}
-                  <FaLinkedin />
-                </a>{' '}
-              </button>
-              <button className="lg:mt-10  duration-500 hover:text-red-400">
-                {' '}
-                <a href="https://github.com/kayodeolowo">
-                  {' '}
-                  <BsGithub />
-                </a>{' '}
-              </button>
-              <button className="lg:mt-10  duration-500 hover:text-red-400">
-                {' '}
-                <a href="mailto:officialkayodeolowo@gmail.com">
-                  {' '}
-                  <TbBrandGmail />
-                </a>{' '}
-              </button>
-            </div>
-          </div>
+         
         </div>
       </div>
       <ToastContainer />

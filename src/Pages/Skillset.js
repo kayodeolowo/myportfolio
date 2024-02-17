@@ -17,56 +17,56 @@ const Skillset = () => {
                     Frontend Web development, my proficient skills are: </h2>
                 <div  className='  w-full mx-auto px-4 grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7  gap-14 mt-10 pb-4 '>
 
-                    <div  data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'>
+                    <div  data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16'>
                         <img className='h-8' src="./images/html.png" alt='' />
                         <h1 className='text-white text-xs mt-1'> Html </h1>
                     </div>
 
-                    <div data-aos="fade-up"  className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'>
+                    <div data-aos="fade-up"  className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16'>
                         <img className='w-8' src="./images/css.png" alt='' />
                         <h1 className='text-white mt-1 text-xs'> CSS </h1>
                     </div>
 
-                    <div data-aos="fade-up"  className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'>
+                    <div data-aos="fade-up"  className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16'>
                         <img className='w-8 mt-2' src="./images/tailwind.png" alt='' />
                         <h1 className='text-white mt-2 text-xs'> Tailwind </h1>
                     </div>
 
-                    <div data-aos="fade-up"  className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'>
+                    <div data-aos="fade-up"  className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16'>
                         <img className='w-8 ' src="./images/bootstraplogo.png" alt='' />
                         <h1 className='text-white mt-1 text-xs'> Bootstrap </h1>
                     </div>
 
-                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'>
+                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16'>
                         <img className='w-8 ' src="./images/javascript.png" alt='' />
                         <h1 className='text-white mt-1 text-xs'> Javascript </h1>
                     </div>
 
-                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'>
+                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16'>
                         <img className='w-8 ' src="./images/typescript.png" alt='' />
                         <h1 className='text-white mt-1 text-xs'> Typescript </h1>
                     </div>
 
-                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'>
+                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16'>
                         <img className='w-8 ' src="./images/react.png" alt='' />
                         <h1 className='text-white mt-1 text-xs  '> ReactJs </h1>
                     </div>
-                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'>
+                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16'>
                         <img className='w-8 ' src="./images/next.png" alt='' />
                         <h1 className='text-white mt-1 text-xs'> Next Js </h1>
                     </div>
 
-                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'>
+                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16'>
                         <img className='w-8 ' src="./images/redux.png" alt='' />
                         <h1 className='text-white mt-1 text-xs'> Redux </h1>
                     </div>
 
-                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'>
+                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16'>
                         <img className='w-8 ' src="./images/git.png" alt='' />
                         <h1 className='text-white mt-1 text-xs'> Git </h1>
                     </div>
 
-                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 border-2 border-[#E0A040] rounded-tr-lg rounded-bl-lg p-2 pt-3 w-16'>
+                    <div data-aos="fade-up" className='flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16'>
                         <img className='w-8 ' src="./images/github.png" alt='' />
                         <h1 className='text-white mt-1 text-xs'> Github </h1>
                     </div>
