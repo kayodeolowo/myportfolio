@@ -8,7 +8,7 @@ const Categories = [
     img: "./images/moonrep.jpg",
     languages: ["Javascript", "ReactJS"],
     link: "https://moonrepublic.io/",
-    github: "https://github.com/kayodeolowo",
+    github: "https://github.com/kayodeolowo?tab=repositories",
     data: "Json"
 
   },
@@ -37,7 +37,7 @@ const Categories = [
     description: "Sales dashboard that provides real-time details on sales performance, Earnings, top-selling products and others ",
     languages: ["Javascript", "ReactJS"],
     link: "https://sales-dahsboard.netlify.app/dashboard",
-    github: "https://github.com/kayodeolowo",
+    github: "https://github.com/kayodeolowo?tab=repositories",
     data: "Json"
 
   },
@@ -49,7 +49,7 @@ const Categories = [
     img: "./images/begreat.jpg",
     languages: ["Javascript", "Next JS", "Redux"],
     link: "https://be-great-finance.netlify.app",
-    github: "https://github.com/kayodeolowo",
+    github: "https://github.com/kayodeolowo?tab=repositories",
     data: "Json"
 
   },
@@ -76,7 +76,7 @@ const Categories = [
     description: "Website built for a social media Startup ",
     languages: ["Javascript", "ReactJS"],
     link: "https://mslockdown.netlify.app/",
-    github: "https://github.com/kayodeolowo"
+    github: "https://github.com/kayodeolowo?tab=repositories"
 
   },
 
@@ -101,7 +101,7 @@ const Categories = [
     description: "Web 3 web app that operates on top of a decentralized network and utilizes blockchain technology",
     languages: ["Javascript", "NextJS",],
     link: "https://www.arbfurbo.wtf/",
-    github: "https://github.com/kayodeolowo"
+    github: "https://github.com/kayodeolowo?tab=repositories"
 
   },
 
