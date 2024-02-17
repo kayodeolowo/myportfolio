@@ -55,7 +55,7 @@ const Contact = () => {
             <div className="mt-2 text-gray-100 text-lg ">
               <p className='leading-8'>
                 Let's have a conversation about how I can turn your visions into captivating online realities.
-                Feel free to reach out to me via  <span className='font-semibold cursor-pointer hover:text-red-400 hover:border-b-red-400 translate duration-300 ease-out  text-[#E0A040] border-b-2 border-[#E0A040] '>  <a href="mailto:officialkayodeolowo@gmail.com">
+                Feel free to reach out to me via  <span className='font-semibold cursor-pointer hover:text-[#8e7145] hover:border-b-[#8e7145] translate duration-300 ease-out  text-[#E0A040] border-b-2 border-[#E0A040] '>  <a href="mailto:officialkayodeolowo@gmail.com">
                   {' '}
                   E-mail
                 </a>{' '} </span> to start a conversation.

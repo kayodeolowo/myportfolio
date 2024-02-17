@@ -64,7 +64,7 @@ const Projects = () => {
           {data.map((values) => {
             const { id, name, img, type, description, languages, link, github, data } = values;
             return (
-              <section data-aos="zoom-in" key={id} className=' mt-8 mx-auto  w-10/12 sm:w-full bg-[#072a4b]   rounded-lg  shadow-2xl hover:bg-[#2b3b4b]  duration-300 hover:ease-in transition hover:shadow-2xl  hover:cursor-pointer 
+              <section data-aos="zoom-in" key={id} className=' mt-8 mx-auto  w-10/12 sm:w-full bg-[#072a4b]   rounded-lg  shadow-2xl hover:bg-[#0C1B46]  duration-300 hover:ease-in transition hover:shadow-2xl  hover:cursor-pointer 
                 '>
 
                 <div className=''>
