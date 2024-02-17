@@ -8,8 +8,8 @@ import { AiOutlineCloudDownload } from 'react-icons/ai';
 const About = () => {
 
   return (
-    <section className='w-full  ' id='about'>
-      <div className='w-11/12 md:w-9/12 mx-auto max-w-[1280px]   pt-16 md:pt-20'>
+    <section className='w-full ' id='about'>
+      <div className='w-11/12 md:w-9/12 mx-auto max-w-[1280px]   pt-20 md:pt-20'>
         <div>
           <h1 className='text-[#E0A040] text-xl font-Ubuntu font-bold'> 01.  <span className='text-white'> About me </span>  </h1>
         </div>

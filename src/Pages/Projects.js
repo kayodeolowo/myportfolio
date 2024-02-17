@@ -27,8 +27,8 @@ const Projects = () => {
     Aos.init({ duration: 2500 });
   }, []);
   return (
-    <section className='w-full pt-20  text-white ' >
-      <div id="projects" className='w-11/12 md:w-9/12 mx-auto max-w-[1280px]' >
+    <section id="projects" className='w-full pt-20  text-white ' >
+      <div  className='w-11/12 md:w-9/12 mx-auto max-w-[1280px]' >
         <div>
           <div>
             <h1 className='text-[20px] text-[#E0A040] font-Ubuntu font-bold'> 03. <span className='text-white'> My projects</span> </h1>
