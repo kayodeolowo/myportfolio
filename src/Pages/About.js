@@ -22,16 +22,24 @@ const About = () => {
               as Javascript ES6+, React.js, Next.js, HTML5, CSS3,
               and more.  My track record speaks
               for itself, showcasing a consistent history of successful
-              projects and accomplishments. */}
-            <h1 className='text-gray-100  text-lg  font-normal xl:-mt-8  leading-8'  > 
-             
-
-              I'm a super motivated Web Developer who absolutely
+              projects and accomplishments. 
+              
+               I'm a super motivated Web Developer who absolutely
                loves what I do. Over the course of my career,
                 I've picked up a bunch of cool skills that make me a dedicated professional.
                  I'm all about the latest tech, like Javascript ES6+,
-                  React.js, Next.js, HTML5, CSS3, and more. 
-                  My track record? Well, it's filled with numerous successful projects and achievements that I'm really proud of.
+                  React.js, Next.js, HTML5, CSS3, and more. */}
+            <h1 className='text-gray-100  text-lg  font-normal xl:-mt-8  leading-8'  > 
+             
+
+             
+                  
+                  I am a professional frontend developer passionate about translating 
+                  visions into interactive web experiences. With expertise in HTML, CSS, 
+                  and modern JavaScript frameworks, i am committed to building pixel-perfect, 
+                  responsive websites that captivate users.
+                  My track record? Well, it is filled with numerous 
+                  successful projects and achievements that i am really proud of.
 
             </h1>
 

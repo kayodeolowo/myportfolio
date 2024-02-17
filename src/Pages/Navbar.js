@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose } from 'react-icons/ai';
-import { CgMenuGridR } from 'react-icons/cg';
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { HashLink as Link } from 'react-router-hash-link';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -51,7 +51,7 @@ const Navbar = () => {
         
             {/* hamburger */} 
             <div   onClick={handleNav} className=' md:hidden z-10 '> 
-            {nav ? <AiOutlineClose className='text-[#E0A040] ' size={32}/> :   <CgMenuGridR className='text-[#E0A040] ' size={32}/>}
+            {nav ? <AiOutlineClose className='text-[#E0A040] ' size={32}/> :   <HiOutlineMenuAlt3 className='text-[#E0A040] font-bold ' size={32}/>}
               
             </div>
 

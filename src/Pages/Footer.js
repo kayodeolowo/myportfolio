@@ -52,6 +52,8 @@ const Footer = () => {
               </button>
             </div>
           </div>
+
+          <hr className='mt-6 md:w-[90%] mx-auto text-gray-900'/>
     
        <Link to='https://www.linkedin.com/in/kayode-olowo-21a775124/' target='blank'>
         
