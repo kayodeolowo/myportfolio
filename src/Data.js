@@ -13,6 +13,18 @@ const Categories = [
 
   },
 
+  {
+    id: 16,
+    categories: "websites",
+    name: "RoyalField Consulting",
+    img: "./images/royalf.png",
+    languages: ["Javascript", "ReactJS"],
+    link: "https://royalfieldconsulting.com/",
+    github: "https://github.com/kayodeolowo?tab=repositories",
+    data: "Json"
+
+  },
+
 
 
   {
@@ -100,7 +112,7 @@ const Categories = [
     img: "./images/arb.jpg",
     description: "Web 3 web app that operates on top of a decentralized network and utilizes blockchain technology",
     languages: ["Javascript", "NextJS",],
-    link: "https://www.arbfurbo.wtf/",
+    link: "https://arbfurbo-k35z.vercel.app/",
     github: "https://github.com/kayodeolowo?tab=repositories"
 
   },
@@ -123,17 +135,17 @@ const Categories = [
 
 
 
-  {
-    id: 3,
-    categories: "websites",
-    name: "Edushare",
-    img: "./images/edushare.png",
-    description: "An Educational landing page for a tuition-free online public school ",
-    languages: ["Javascript", "ReactJS",],
-    link: "https://myedushare.netlify.app/",
-    github: "https://github.com/kayodeolowo/edushare-Landing-page"
+  // {
+  //   id: 3,
+  //   categories: "websites",
+  //   name: "Edushare",
+  //   img: "./images/edushare.png",
+  //   description: "An Educational landing page for a tuition-free online public school ",
+  //   languages: ["Javascript", "ReactJS",],
+  //   link: "https://myedushare.netlify.app/",
+  //   github: "https://github.com/kayodeolowo/edushare-Landing-page"
 
-  },
+  // },
 
 
 
@@ -150,18 +162,18 @@ const Categories = [
 
   },
 
-  {
-    id: 6,
-    categories: "web apps",
-    name: "Budget Calculator",
-    img: "./images/budget.png",
-    description: "A website for totaling your daily expenditures. ",
-    languages: ["Javascript", "ReactJS",],
-    link: "https://mybudgets-calculator.netlify.app/",
-    github: "https://github.com/kayodeolowo/expenses_Calculator",
-    data: "JSon"
+  // {
+  //   id: 6,
+  //   categories: "web apps",
+  //   name: "Budget Calculator",
+  //   img: "./images/budget.png",
+  //   description: "A website for totaling your daily expenditures. ",
+  //   languages: ["Javascript", "ReactJS",],
+  //   link: "https://mybudgets-calculator.netlify.app/",
+  //   github: "https://github.com/kayodeolowo/expenses_Calculator",
+  //   data: "JSon"
 
-  },
+  // },
 
 
 
