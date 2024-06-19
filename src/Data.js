@@ -1,18 +1,5 @@
 const Categories = [
 
-
-  {
-    id: 15,
-    categories: "web apps",
-    name: "Moon Republic",
-    img: "./images/moonrep.jpg",
-    languages: ["Javascript", "ReactJS"],
-    link: "https://moonrepublic.io/",
-    github: "https://github.com/kayodeolowo?tab=repositories",
-    data: "Json"
-
-  },
-
   {
     id: 16,
     categories: "websites",
@@ -25,6 +12,20 @@ const Categories = [
 
   },
 
+
+  {
+    id: 15,
+    categories: "web apps",
+    name: "Moon Republic",
+    img: "./images/moonrep.jpg",
+    languages: ["Javascript", "ReactJS"],
+    link: "https://moonrepublic.netlify.app/",
+    github: "https://github.com/kayodeolowo?tab=repositories",
+    data: "Json"
+
+  },
+
+ 
 
 
   {

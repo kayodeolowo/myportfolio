@@ -33,7 +33,7 @@ const Projects = () => {
           <div>
             <h1 className='text-[20px] text-[#E0A040] font-Ubuntu font-bold'> 03. <span className='text-white'> My projects</span> </h1>
             <p className='mt-2 text-gray-100  text-lg leading-8'> Welcome to this part of my portfolio! I'm thrilled to share a curated selection of projects that truly 
-            highlight my journey and proficiency in Frontend web development. <br/> Each project has been a stepping stone.
+            highlight my journey and proficiency in Frontend web development. <br className='mt-1'/> Each project has been a stepping stone.
               As you explore these projects, you'll witness firsthand how I've transformed design concepts into functional and visually appealing web interfaces. </p>
           </div>
         </div>
