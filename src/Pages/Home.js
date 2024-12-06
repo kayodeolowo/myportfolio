@@ -11,10 +11,10 @@ const Home = () => {
                      <h1 className='text-[#E0A040] text-2xl font-Inconsolata font-semibold'> Hello there, my name is  </h1>
                      
 
-                    <Link to='https://www.linkedin.com/in/kayode-olowo-21a775124/' target='blank'>
+                    <a href='https://www.linkedin.com/in/kayode-olowo-21a775124/' target='blank'>
                     <h1 data-aos="zoom-in" className=' mt-4 text-4xl sm:text-6xl md:text-[7rem]  font-bold text-white font-Source   text-center transition ease-in hover:text-[#E0A040] cursor-pointer  duration-500'> Kayode Olowo</h1>
                     
-                    </Link>
+                    </a>
                    
                      {/* <h1 className='mt-6 md:mt-4 sm:w-9/12 lg:w-7/12  leading-snug  text-gray-100 font-fira text-start sm:text-start text-2xl  '> I am a Creative front-end engineer with years of experience in building appealing web applications in front-end web development. Am passionate about building and developing user friendly websites and web based applications.   </h1> <h2 className=' mt-6 font-fira text-lg sm:text-xl leading-snug text-gray-100 text-start sm:w-9/12  lg:w-7/12'> </h2>
                 */}
