@@ -29,8 +29,8 @@ const Projects = () => {
         <div>
           <div>
           <div className='flex w-fit mx-auto items-center'>
-<h1 className= '  text-4xl text-white font-Ubuntu  font-black text-center'>  Projects </h1> 
-<BiBriefcase  className='text-4xl ml-2 text-[#E0A040] font-bold '/>
+<h1 className= ' text-2xl md:text-4xl text-white font-Ubuntu  font-black text-center'>  Projects </h1> 
+<BiBriefcase  className='text-2xl md:text-4xl ml-2 text-[#E0A040] font-bold '/>
     </div>
             <p className='mt-4 text-gray-300  text-lg leading-8 tracking-wide'> Welcome to this part of my portfolio! I am thrilled to share a curated selection of projects that truly 
             highlight my journey and proficiency in Frontend web development. Each project has been a stepping stone.

@@ -47,8 +47,8 @@ const Contact = () => {
     <section className="w-full" id="contact">
       <div className="w-11/12 md:w-9/12 mx-auto max-w-[1280px] pt-20 md:pt-40 text-white">
       <div className='flex w-fit mx-auto items-center'>
-<h1 className= '  text-4xl text-white font-Ubuntu  font-black text-center'>  Contact me </h1> 
-<IoChatboxEllipsesOutline  className='text-3xl ml-2 text-[#E0A040] font-bold '/>
+<h1 className= ' text-2xl  md:text-4xl text-white font-Ubuntu  font-black text-center'>  Contact me </h1> 
+<IoChatboxEllipsesOutline  className=' text-xl md:text-3xl ml-2 text-[#E0A040] font-bold '/>
     </div>
 
         <div className="lg:flex lg:flex-row">

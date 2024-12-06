@@ -13,8 +13,8 @@ const About = () => {
         <div className=' items-center '>
           <div className=''>
              
-          <img className='mt-4  w-[10rem] cursor-pointer   mx-auto ' src="./images/boy.png" alt='' />
-            <h1 className='text-gray-300 tracking-wide md:w-[70%] mt-4 max-w-[40rem] mx-auto text-center text-lg  font-normal   leading-0'  > 
+          <img className='mt-8  w-[10rem] cursor-pointer   mx-auto ' src="./images/boy.png" alt='' />
+            <h1 className='text-gray-300 tracking-wide md:w-[70%] mt-16 md:mt-4 max-w-[40rem] mx-auto text-center text-lg  font-normal   leading-0'  > 
              
 
                   I am a Professional frontend developer passionate about translating 

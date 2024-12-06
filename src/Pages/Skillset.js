@@ -11,11 +11,11 @@ const Skillset = () => {
     <section className="w-full  " id="skills">
       <div className="w-11/12  md:w-9/12  mx-auto max-w-[1280px] ">
         <div className="flex items-center w-fit mx-auto">
-          <h1 className="  text-4xl text-white font-Ubuntu  font-black text-center">
+          <h1 className="text-2xl  md:text-4xl text-white font-Ubuntu  font-black text-center">
             {" "}
             Skills{" "}
           </h1>
-          <IoMdCodeWorking className="text-5xl ml-2 text-[#E0A040] font-bold " />
+          <IoMdCodeWorking className="text-3xl md:text-5xl ml-2 text-[#E0A040] font-bold " />
         </div>
 
         <h2 className="  mt-4 leading-8 tracking-wide  text-gray-300 text-lg     ">
@@ -60,7 +60,7 @@ const Skillset = () => {
             <h1 className="text-white mt-1 text-xs"> Typescript </h1>
           </div>
 
-          
+
           <div
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
