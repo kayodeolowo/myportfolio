@@ -21,8 +21,8 @@ const Projects = () => {
 
   
   return (
-    <section   className='w-full'  id='projects' >
-      <div   className='w-11/12 pt-40 md:w-9/12 text-white  mx-auto max-w-[1280px]' >
+    <section   className='w-full pt-[5rem] md:pt-[12rem]'  id='projects' >
+      <div   className='w-11/12  md:w-9/12 text-white  mx-auto max-w-[1280px]' >
         <div>
           <div>
           <div className='flex w-fit mx-auto items-center'>
@@ -39,7 +39,7 @@ const Projects = () => {
 
 
 
-        <div className=' pt-4 sm:grid sm:gap-8 sm:grid-cols-2 lg:grid-cols-4  2xl:grid-cols-5 lg:gap-x-8   max-w-[22rem]  mx-auto '>
+        <div className=' pt-4 sm:grid sm:gap-8 sm:grid-cols-2 lg:grid-cols-4  2xl:grid-cols-5 lg:gap-x-8     mx-auto '>
           {data.map((values) => {
             const { id, name, img, type, description, languages, link, github, data } = values;
             return (
