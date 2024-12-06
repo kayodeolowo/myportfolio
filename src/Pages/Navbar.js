@@ -113,7 +113,7 @@ const Navbar = () => {
           nav ? 'absolute' : 'hidden'
         } top-0 left-0 w-full bg-[#0B1E33] text-center z-10 h-[20rem] flex flex-col mt-[4.9rem]`}
       >
-        <ul className="md:hidden text-2xl font-semibold mt-10">
+        <ul className="md:hidden text-xl font-semibold mt-6 flex flex-col space-y-4">
           {renderMenuItems(true)}
         </ul>
       </div>
