@@ -13,19 +13,16 @@ const Projects = () => {
 
 
 
-  const filterResult = (output) => {
-    const result = Categories.filter((curData) => {
-      return curData.categories === output;
-    });
-    setData(result)
-  }
+
 
   useEffect(() => {
     Aos.init({ duration: 2500 });
   }, []);
+
+  
   return (
-    <section id="projects"  className='w-full pt-20  text-white ' >
-      <div   className='w-11/12 md:w-9/12 mx-auto max-w-[1280px]' >
+    <section   className='w-full'  id='projects' >
+      <div   className='w-11/12 text-white  pt-40 md:w-9/12 mx-auto max-w-[1280px' >
         <div>
           <div>
           <div className='flex w-fit mx-auto items-center'>

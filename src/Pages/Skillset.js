@@ -8,8 +8,8 @@ const Skillset = () => {
     Aos.init({ duration: 2500 });
   }, []);
   return (
-    <section className="w-full  " id="skills">
-      <div className="w-11/12  md:w-9/12  mx-auto max-w-[1280px] ">
+    <section className="w-full" id="skills">
+      <div className="w-11/12 pt-40  md:w-9/12  mx-auto max-w-[1280px] ">
         <div className="flex items-center w-fit mx-auto">
           <h1 className="text-2xl  md:text-4xl text-white font-Ubuntu  font-black text-center">
             {" "}

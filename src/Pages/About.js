@@ -7,7 +7,7 @@ import { AiOutlineCloudDownload } from 'react-icons/ai';
 const About = () => {
 
   return (
-    <section className='w-full min-h-screen' >
+    <section className='w-full ' >
       <div className='w-11/12 md:w-9/12 mx-auto max-w-[1280px]  '>
 
         <div className=' items-center '>

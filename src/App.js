@@ -1,18 +1,18 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Navbar from "./Pages/Navbar";
 import Projects from "./Pages/Projects";
 import Skillset from "./Pages/Skillset";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contact from "./Pages/Contact";
 import Footer from "./Pages/Footer";
+import Men from "./Pages/Men";
 
 //import  ClipLoader  from "react-spinners/RiseLoader";
 
-
 function App() {
-  const  [loading, setLoading ] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   // useEffect(()=> {
   //   setLoading(true)
@@ -22,28 +22,17 @@ function App() {
   // })
 
   return (
-   <Router> 
-    
-     
-      <div className=" bg-[#031A30]   ">  
-       <Navbar/> 
-      <Home/>
-      <About/>
-      <Skillset/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-
-      
-     </div>
-
-     
-     
-   </Router>
-     
-
-    
-    
+    <Router>
+      <div className=" bg-[#031A30]   ">
+        <Navbar />
+        <Home />
+        <About />
+        <Skillset />  
+        <Projects/>
+        <Contact />  
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
