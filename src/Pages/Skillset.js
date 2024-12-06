@@ -26,21 +26,21 @@ const Skillset = () => {
           accessible applications using modern frameworks. Here are my stacks i
           work with:
         </h2>
-        <div className="  w-full mx-auto px-4 grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7  gap-14 mt-10 pb-4 ">
+        <div className="     grid grid-cols-4 md:grid-cols-5 sm:grid-cols-4 lg:grid-cols-7  gap-10 mt-10 pb-4 ">
         
         
         <div
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8 " src="./images/react.png" alt="" />
+            <img className="w-full  " src="./images/react.png" alt="" />
             <h1 className="text-white mt-1 text-xs  "> ReactJs </h1>
           </div>
           <div
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8 " src="./images/next.png" alt="" />
+            <img className="w-full " src="./images/next.png" alt="" />
             <h1 className="text-white mt-1 text-xs"> Next Js </h1>
           </div>
 
@@ -48,7 +48,7 @@ const Skillset = () => {
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8 " src="./images/node.webp" alt="" />
+            <img className="w-full " src="./images/node.webp" alt="" />
             <h1 className="text-white mt-1 text-xs"> Node Js </h1>
           </div>
 
@@ -56,7 +56,7 @@ const Skillset = () => {
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8 " src="./images/javascript.png" alt="" />
+            <img className="w-full " src="./images/javascript.png" alt="" />
             <h1 className="text-white mt-2 text-xs"> Javascript </h1>
           </div>
 
@@ -64,7 +64,7 @@ const Skillset = () => {
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8 " src="./images/typescript.png" alt="" />
+            <img className="w-full " src="./images/typescript.png" alt="" />
             <h1 className="text-white mt-2 text-xs"> Typescript </h1>
           </div>
 
@@ -73,7 +73,7 @@ const Skillset = () => {
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8 " src="./images/mongodb.png" alt="" />
+            <img className="w-10 " src="./images/mongodb.png" alt="" />
             <h1 className="text-white mt-2 text-xs"> MongoDb </h1>
           </div>
 
@@ -92,7 +92,7 @@ const Skillset = () => {
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="h-8" src="./images/html.png" alt="" />
+            <img className="h-14" src="./images/html.png" alt="" />
             <h1 className="text-white text-xs mt-1"> Html </h1>
           </div>
 
@@ -100,15 +100,15 @@ const Skillset = () => {
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8" src="./images/css.png" alt="" />
-            <h1 className="text-white mt-1 text-xs"> CSS </h1>
+            <img className="w-full" src="./images/css.png" alt="" />
+            <h1 className="text-white mt-2 text-xs"> CSS </h1>
           </div>
 
           <div
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8 mt-2" src="./images/tailwind.png" alt="" />
+            <img className="w-full mt-2" src="./images/tailwind.png" alt="" />
             <h1 className="text-white mt-2 text-xs"> Tailwind </h1>
           </div>
 
@@ -116,7 +116,7 @@ const Skillset = () => {
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8 " src="./images/bootstraplogo.png" alt="" />
+            <img className="w-full " src="./images/bootstraplogo.png" alt="" />
             <h1 className="text-white mt-1 text-xs"> Bootstrap </h1>
           </div>
 
@@ -128,7 +128,7 @@ const Skillset = () => {
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8 " src="./images/redux.png" alt="" />
+            <img className="w-full " src="./images/redux.png" alt="" />
             <h1 className="text-white mt-1 text-xs"> Redux </h1>
           </div>
 
@@ -136,7 +136,7 @@ const Skillset = () => {
             data-aos="fade-up"
             className="flex flex-col  items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8 " src="./images/git.png" alt="" />
+            <img className="w-full " src="./images/git.png" alt="" />
             <h1 className="text-white mt-1 text-xs"> Git </h1>
           </div>
 
@@ -144,7 +144,7 @@ const Skillset = () => {
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
-            <img className="w-8 " src="./images/github.png" alt="" />
+            <img className="w-full " src="./images/github.png" alt="" />
             <h1 className="text-white mt-1 text-xs"> Github </h1>
           </div>
         </div>
