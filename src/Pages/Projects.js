@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import { NavLink } from "react-router-dom"
-import styled from "styled-components"
-
 import Categories from '../Data'
-import { CgEnter } from 'react-icons/cg';
 import { BsGithub } from 'react-icons/bs'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { BiBriefcase } from "react-icons/bi";
 
 
 const Projects = () => {
@@ -27,36 +24,21 @@ const Projects = () => {
     Aos.init({ duration: 2500 });
   }, []);
   return (
-    <section id="projects" className='w-full pt-20  text-white ' >
-      <div  className='w-11/12 md:w-9/12 mx-auto max-w-[1280px]' >
+    <section id="projects"  className='w-full pt-20  text-white ' >
+      <div   className='w-11/12 md:w-9/12 mx-auto max-w-[1280px]' >
         <div>
           <div>
-            <h1 className='text-[20px] text-[#E0A040] font-Ubuntu font-bold'> 03. <span className='text-white'> My projects</span> </h1>
-            <p className='mt-2 text-gray-100  text-lg leading-8'> Welcome to this part of my portfolio! I'm thrilled to share a curated selection of projects that truly 
-            highlight my journey and proficiency in Frontend web development. <br className='mt-1'/> Each project has been a stepping stone.
-              As you explore these projects, you'll witness firsthand how I've transformed design concepts into functional and visually appealing web interfaces. </p>
+          <div className='flex w-fit mx-auto items-center'>
+<h1 className= '  text-4xl text-white font-Ubuntu  font-black text-center'>  Projects </h1> 
+<BiBriefcase  className='text-4xl ml-2 text-[#E0A040] font-bold '/>
+    </div>
+            <p className='mt-4 text-gray-300  text-lg leading-8 tracking-wide'> Welcome to this part of my portfolio! I am thrilled to share a curated selection of projects that truly 
+            highlight my journey and proficiency in Frontend web development. Each project has been a stepping stone.
+              As you explore these projects, you will witness firsthand how I have transformed design concepts into functional and visually appealing web interfaces. </p>
           </div>
         </div>
 
-        {/* <div className='flex justify-center mt-6' > 
-                 <button className=' rounded-full py-1 px-4 bg-[#E0A040] text-black font-bold' onClick={(e)=> setIsActive(!isActive)}> 
-                  Filter Projects
-                 </button>
-           </div>  */}
-
-
-        {/* <div className=' flex  justify-center mx-auto items-center w-fit space-x-6 px-6   py-2 mt-8  bg-[#152d46] rounded-full text-sm text-white font-semibold  '>
-
-
-
-          <button className=' hover:text-[#E0A040]' onClick={() => setData(Categories)}>All </button>
-
-          <button className=' hover:text-[#E0A040]' onClick={() => filterResult('web apps')}>Web Apps </button>
-
-
-          <button className=' hover:text-[#E0A040]' onClick={() => filterResult('websites')}  >Websites </button>
-
-        </div> */}
+      
 
 
 

@@ -11,7 +11,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
-import {MdOutlineMail} from 'react-icons/md'
+import { IoChatboxEllipsesOutline } from "react-icons/io5";
 
 
 
@@ -45,15 +45,16 @@ const Contact = () => {
 
   return (
     <section className="w-full" id="contact">
-      <div className="w-11/12 md:w-9/12 mx-auto max-w-[1280px] pt-20 md:pt-24 text-white">
-        <h1 className="text-[20px] text-[#E0A040] font-Ubuntu font-bold">
-          04. <span className="text-white "> Contact me </span>
-        </h1>
+      <div className="w-11/12 md:w-9/12 mx-auto max-w-[1280px] pt-20 md:pt-40 text-white">
+      <div className='flex w-fit mx-auto items-center'>
+<h1 className= '  text-4xl text-white font-Ubuntu  font-black text-center'>  Contact me </h1> 
+<IoChatboxEllipsesOutline  className='text-3xl ml-2 text-[#E0A040] font-bold '/>
+    </div>
 
         <div className="lg:flex lg:flex-row">
           <div>
             <div className="mt-2 text-gray-100 text-lg ">
-              <p className='leading-8'>
+              <p className='leading-8 tracking-wide text-gray-300'>
                 Let's have a conversation about how I can turn your visions into captivating online realities.
                 Feel free to reach out to me via  <span className='font-semibold cursor-pointer hover:text-[#8e7145] hover:border-b-[#8e7145] translate duration-300 ease-out  text-[#E0A040] border-b-2 border-[#E0A040] '>  <a href="mailto:officialkayodeolowo@gmail.com">
                   {' '}
