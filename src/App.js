@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Navbar from "./Pages/Navbar";
 import Projects from "./Pages/Projects";
@@ -24,9 +23,12 @@ function App() {
   return (
     <Router>
       <div className=" bg-[#031A30]   ">
+        
+
+
+        
         <Navbar />
         <Home />
-        <About />
         <Skillset />  
         <Projects/>
         <Contact />  

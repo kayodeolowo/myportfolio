@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <footer className='w-full text-gray-400  '> 
      <div  className="">
-            <div  className="flex  flex-row space-x-10 mx-auto w-fit mt-8  text-center text-xl ">
+            <div  className="flex  flex-row space-x-10 mx-auto w-fit mt-20  text-center text-xl ">
               <button className="lg:mt-10 hover:text-[#E0A040] duration-500 ">
                 <a href="https://twitter.com/Itz_kayman">
                   {' '}
@@ -55,12 +55,12 @@ const Footer = () => {
 
           <hr className='mt-6 md:w-[90%] mx-auto text-gray-900'/>
     
-       <Link to='https://www.linkedin.com/in/kayode-olowo-21a775124/' target='blank'>
+       <a href='https://www.linkedin.com/in/kayode-olowo-21a775124/' target='blank'>
         
         <h1    className='text-center items-center  mt-4 pb-6  w-fit mx-auto font-Inconsolata font-semibold hover:text-[#E0A040] transition ease-in-out duration-500'> 
            Designed & Built By kayode Olowo
         </h1>
-       </Link>
+       </a>
         
     </footer>
   )

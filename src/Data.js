@@ -14,6 +14,18 @@ const Categories = [
 
 
   {
+    id: 20,
+    categories: "websites",
+    name: "MetaAfrica Sports",
+    img: "./images/metaafrica.png",
+    languages: ["Typescript", "NextJS"],
+    link: "https://metaafricasports.com/",
+    github: "https://github.com/kayodeolowo?tab=repositories",
+    data: "Api"
+
+  },
+
+  {
     id: 15,
     categories: "web apps",
     name: "Moon Republic",

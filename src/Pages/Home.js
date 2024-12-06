@@ -1,12 +1,16 @@
 import React from 'react'
 import { TbDeviceMobileMessage } from 'react-icons/tb';
 import { HashLink as Link } from 'react-router-hash-link';
+import Resume from '../KAYODE _OLOWO.pdf'
+import { IoMailUnreadOutline } from "react-icons/io5";
+import { AiOutlineCloudDownload } from 'react-icons/ai';
 
 
 const Home = () => {
   return (
-    <section className='w-full  ' id='about' >
-            <div className='w-11/12 md:w-9/12 mx-auto max-w-[1280px]   pt-[120px] '> 
+    <section className='w-full  max-w-xl:h-screen' id='about' >
+      <div className='w-11/12 md:w-9/12  mx-auto max-w-[1280px]'>
+      <div className=' pt-[8rem] 2xl:pt-[15rem]'> 
                <div className='text-center'> 
                      <h1 className='text-[#E0A040] text-2xl font-Inconsolata font-semibold'> Hello there, my name is  </h1>
                      
@@ -20,10 +24,53 @@ const Home = () => {
                 */}
                </div>
 
-            {/* <Link to='#contact'> <button className='flex border-2 mt-6 px-6 lg:px-4  lg:py-1 py-2 md:py-1 text-[20px] lg:text-[17px] bg-[#E0A040] border-[#173047] rounded-lg text-black font-Ubuntu font-bold transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300    ' >  Contact me <span className='ml-2 text-[30px] lg:text-[23px]'> <TbDeviceMobileMessage/> </span>  </button>  </Link>    */}
+               
 
 
             </div>
+
+            <div className='  '>
+
+<div className=' items-center '>
+  <div className=''>
+     
+  <img className='mt-8  w-[10rem] 2xl:mt-10 cursor-pointer   mx-auto ' src="./images/boy.png" alt='' />
+    <h1 className='text-gray-300 tracking-wide md:w-[70%] mt-6 2xl:mt-8 md:mt-4 max-w-[40rem] mx-auto text-center text-lg 2xl:text-xl  font-normal   leading-0'  > 
+     
+
+          I am a Professional frontend developer passionate about translating 
+          visions into interactive web experiences. With expertise in HTML, CSS, 
+          and modern JavaScript frameworks, i am committed to building pixel-perfect, 
+          responsive websites that captivate users.
+          My track record? Well, it is filled with numerous 
+          successful projects and achievements that i am really proud of.
+
+    </h1>
+
+
+  </div>
+
+  
+
+</div>
+
+
+<div className='flex sm:flex-row flex-col sm:space-x-4 w-fit mx-auto 2xl:mt-10'>
+<a href={Resume} download>
+  <button className='flex items-center mx-auto   mt-6 px-6 py-2 md:py-2 text-lg bg-[#152d46]  rounded-lg text-white font-Ubuntu font-bold transition ease-in hover:bg-[#28405b]  duration-300 ' >  My Resume <span className='ml-2 text-lg'> <AiOutlineCloudDownload /> </span>  </button>
+</a>
+
+<a href="mailto:officialkayodeolowo@gmail.com">
+  <button className='flex items-center mx-auto  mt-6 px-6 py-2 md:py-2 text-lg bg-[#152d46]  rounded-lg text-white font-Ubuntu font-bold transition ease-in hover:bg-[#28405b]  duration-300 ' >  
+  Contact me <span className='ml-2 text-lg'> <IoMailUnreadOutline /> </span>
+          </button>
+          </a>
+
+</div>
+
+</div>
+      </div>
+            
     </section>
   )
 }

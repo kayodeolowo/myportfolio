@@ -8,10 +8,10 @@ const Skillset = () => {
     Aos.init({ duration: 2500 });
   }, []);
   return (
-    <section className="w-full" id="skills">
-      <div className="w-11/12 pt-40  md:w-9/12  mx-auto max-w-[1280px] ">
+    <section className="w-full pt-[5rem] md:pt-[12rem]" id="skills">
+      <div className="w-11/12   md:w-9/12  mx-auto max-w-[1280px] ">
         <div className="flex items-center w-fit mx-auto">
-          <h1 className="text-2xl  md:text-4xl text-white font-Ubuntu  font-black text-center">
+          <h1 className="text-2xl   md:text-4xl text-white font-Ubuntu  font-black text-center">
             {" "}
             Skills{" "}
           </h1>
@@ -48,8 +48,16 @@ const Skillset = () => {
             data-aos="fade-up"
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
+            <img className="w-8 " src="./images/node.webp" alt="" />
+            <h1 className="text-white mt-1 text-xs"> Node Js </h1>
+          </div>
+
+          <div
+            data-aos="fade-up"
+            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
+          >
             <img className="w-8 " src="./images/javascript.png" alt="" />
-            <h1 className="text-white mt-1 text-xs"> Javascript </h1>
+            <h1 className="text-white mt-2 text-xs"> Javascript </h1>
           </div>
 
           <div
@@ -57,7 +65,26 @@ const Skillset = () => {
             className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
           >
             <img className="w-8 " src="./images/typescript.png" alt="" />
-            <h1 className="text-white mt-1 text-xs"> Typescript </h1>
+            <h1 className="text-white mt-2 text-xs"> Typescript </h1>
+          </div>
+
+
+          <div
+            data-aos="fade-up"
+            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
+          >
+            <img className="w-8 " src="./images/mongodb.png" alt="" />
+            <h1 className="text-white mt-2 text-xs"> MongoDb </h1>
+          </div>
+
+
+
+          <div
+            data-aos="fade-up"
+            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
+          >
+            <img className="w-8 " src="./images/firebase.png" alt="" />
+            <h1 className="text-white mt-1 text-xs"> Firebase </h1>
           </div>
 
 
