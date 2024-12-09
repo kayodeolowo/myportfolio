@@ -38,7 +38,17 @@ const Categories = [
   },
 
  
+  {
+    id: 50,
+    categories: "web apps",
+    name: "Biosphere Solutions",
+    img: "./images/bio.png",
+    languages: ["Javascript", "NextJS"],
+    link: "https://biospheresolutions.netlify.app/",
+    github: "https://github.com/kayodeolowo?tab=repositories",
+    data: "Json"
 
+  },
 
   {
 
@@ -163,17 +173,17 @@ const Categories = [
 
 
 
-  {
-    id: 5,
-    categories: "websites",
-    name: "Tasty Foods",
-    img: "./images/Tasty.png",
-    description: "A Mobile Responsive Landing page for an Eatery  ",
-    languages: ["Javascript", "ReactJS",],
-    link: "https://tasty-foodies.netlify.app/",
-    github: "https://github.com/kayodeolowo/foodweb"
+  // {
+  //   id: 5,
+  //   categories: "websites",
+  //   name: "Tasty Foods",
+  //   img: "./images/Tasty.png",
+  //   description: "A Mobile Responsive Landing page for an Eatery  ",
+  //   languages: ["Javascript", "ReactJS",],
+  //   link: "https://tasty-foodies.netlify.app/",
+  //   github: "https://github.com/kayodeolowo/foodweb"
 
-  },
+  // },
 
   // {
   //   id: 6,
