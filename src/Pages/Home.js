@@ -38,12 +38,7 @@ const Home = () => {
     <h1 className='text-gray-300 tracking-wide md:w-[70%] mt-6 2xl:mt-8 md:mt-4 max-w-[40rem] mx-auto text-center text-lg 2xl:text-xl  font-normal   leading-0'  > 
      
 
-          I am a Professional frontend developer passionate about translating 
-          visions into interactive web experiences. With expertise in HTML, CSS, 
-          and modern JavaScript frameworks, i am committed to building pixel-perfect, 
-          responsive websites that captivate users.
-          My track record? Well, it is filled with numerous 
-          successful projects and achievements that i am really proud of.
+    I am a professional software developer skilled in both Front-end and Back-end development. From building responsive, interactive interfaces to designing efficient back-end systems, I enjoy creating seamless web experiences. I have worked on multiple successful projects and take pride in delivering solutions that look great and perform even better.
 
     </h1>
 
