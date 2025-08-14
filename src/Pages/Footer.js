@@ -20,52 +20,52 @@ const Footer = () => {
 
 
   return (
-    <footer className='w-full py-16 border-t border-white/10 relative'>
+    <footer className='relative w-full py-16 border-white/10'>
       <div className="absolute inset-0 bg-gradient-to-t from-dark-950 to-transparent"></div>
       <div className="relative z-10">
-        <div className="flex justify-center space-x-8 mb-8">
+        <div className="flex justify-center mb-8 space-x-8">
           <a 
             href="https://twitter.com/Itz_kayman" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="group p-4 rounded-full glass-effect hover:bg-white/10 transition-all duration-300 hover:scale-110"
+            className="p-4 transition-all duration-300 rounded-full group glass-effect hover:bg-white/10 hover:scale-110"
           >
-            <FiTwitter className="text-xl text-gray-400 group-hover:text-emerald-400 transition-colors duration-300" />
+            <FiTwitter className="text-xl text-gray-400 transition-colors duration-300 group-hover:text-emerald-400" />
           </a>
           <a 
             href="https://www.linkedin.com/in/kayode-olowo-21a775124/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="group p-4 rounded-full glass-effect hover:bg-white/10 transition-all duration-300 hover:scale-110"
+            className="p-4 transition-all duration-300 rounded-full group glass-effect hover:bg-white/10 hover:scale-110"
           >
-            <FaLinkedin className="text-xl text-gray-400 group-hover:text-emerald-400 transition-colors duration-300" />
+            <FaLinkedin className="text-xl text-gray-400 transition-colors duration-300 group-hover:text-emerald-400" />
           </a>
           <a 
             href="https://github.com/kayodeolowo" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="group p-4 rounded-full glass-effect hover:bg-white/10 transition-all duration-300 hover:scale-110"
+            className="p-4 transition-all duration-300 rounded-full group glass-effect hover:bg-white/10 hover:scale-110"
           >
-            <BsGithub className="text-xl text-gray-400 group-hover:text-emerald-400 transition-colors duration-300" />
+            <BsGithub className="text-xl text-gray-400 transition-colors duration-300 group-hover:text-emerald-400" />
           </a>
           <a 
             href="mailto:officialkayodeolowo@gmail.com"
-            className="group p-4 rounded-full glass-effect hover:bg-white/10 transition-all duration-300 hover:scale-110"
+            className="p-4 transition-all duration-300 rounded-full group glass-effect hover:bg-white/10 hover:scale-110"
           >
-            <TbBrandGmail className="text-xl text-gray-400 group-hover:text-emerald-400 transition-colors duration-300" />
+            <TbBrandGmail className="text-xl text-gray-400 transition-colors duration-300 group-hover:text-emerald-400" />
           </a>
         </div>
 
-        <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-8"></div>
+        <div className="w-full h-px mb-8 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
         
         <div className="text-center">
           <a 
             href='https://www.linkedin.com/in/kayode-olowo-21a775124/' 
             target='_blank' 
             rel="noopener noreferrer"
-            className="group inline-block"
+            className="inline-block group"
           >
-            <p className="text-gray-400 font-inter font-medium group-hover:text-emerald-400 transition-colors duration-300">
+            <p className="font-medium text-gray-400 transition-colors duration-300 font-inter group-hover:text-emerald-400">
               Designed & Built by <span className="font-semibold gradient-text">Kayode Olowo</span>
             </p>
           </a>
