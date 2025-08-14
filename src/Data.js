@@ -8,13 +8,13 @@ const Categories = [
     img: "./images/cryptostats.png",
     description: " Web App were users can check different Live crypto currencies with their individual data ",
     languages: ["Typescript", "NextJS",  "API"],
-    link: "crypto-chart-stats.vercel.app",
+    link: "https://crypto-chart-stats.vercel.app/",
     github: "https://github.com/kayodeolowo",
     data: "Rest Api"
 
   },
 
-  
+
   {
     id: 16,
     categories: "websites",
@@ -40,6 +40,33 @@ const Categories = [
 
   },
 
+
+    {
+    id: 50,
+    categories: "web apps",
+    name: "Biosphere Solutions",
+    img: "./images/bio.png",
+    languages: ["Javascript", "NextJS"],
+    link: "https://biospheresolutions.netlify.app/",
+    github: "https://github.com/kayodeolowo?tab=repositories",
+    data: "Json"
+
+  },
+
+    {
+    id: 14,
+    categories: "web apps",
+    name: "Marketie",
+    img: "./images/dashboard.jpg",
+    description: "Sales dashboard that provides real-time details on sales performance, Earnings, top-selling products and others ",
+    languages: ["Javascript", "ReactJS"],
+    link: "https://sales-dahsboard.netlify.app/dashboard",
+    github: "https://github.com/kayodeolowo?tab=repositories",
+    data: "Json"
+
+  },
+
+
   {
     id: 15,
     categories: "web apps",
@@ -52,18 +79,8 @@ const Categories = [
 
   },
 
- 
-  {
-    id: 50,
-    categories: "web apps",
-    name: "Biosphere Solutions",
-    img: "./images/bio.png",
-    languages: ["Javascript", "NextJS"],
-    link: "https://biospheresolutions.netlify.app/",
-    github: "https://github.com/kayodeolowo?tab=repositories",
-    data: "Json"
 
-  },
+
 
   {
 
@@ -79,18 +96,7 @@ const Categories = [
 
   },
 
-  {
-    id: 14,
-    categories: "web apps",
-    name: "Marketie",
-    img: "./images/dashboard.jpg",
-    description: "Sales dashboard that provides real-time details on sales performance, Earnings, top-selling products and others ",
-    languages: ["Javascript", "ReactJS"],
-    link: "https://sales-dahsboard.netlify.app/dashboard",
-    github: "https://github.com/kayodeolowo?tab=repositories",
-    data: "Json"
 
-  },
 
   {
     id: 16,

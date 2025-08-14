@@ -35,7 +35,7 @@ const Projects = () => {
             Welcome to my project showcase! Here's a curated selection of projects that highlight my journey 
             and expertise in <span className='font-semibold text-white'>Frontend & Backend development</span>. 
             Each project represents a unique challenge and demonstrates my ability to transform ideas into 
-            <span className='font-semibold gradient-text'>functional, beautiful solutions</span>.
+            <span className='font-semibold gradient-text'> functional, beautiful solutions</span>.
           </p>
         </div>
 
