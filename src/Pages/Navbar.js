@@ -55,14 +55,15 @@ const Navbar = () => {
 
   const renderMenuItems = (isMobile = false) =>
     menuItems.map(({ id, label }) => (
-      <li key={id} className={`${isMobile ? 'mb-2' : ''}`}>
+      <li key={id} className={`${isMobile ? 'mb-4' : ''}`}>
         <Link
           to={id}
           smooth
           className={`
-            nav-link-artistic
-            ${activeSection === id ? 'active text-emerald-300 nav-link-active' : 'text-gray-300 hover:text-white'}
-            ${isMobile ? 'text-lg' : 'text-base'}
+            ${isMobile ? 'mobile-nav-link' : 'nav-link-artistic'}
+            ${activeSection === id ? 'active text-emerald-300' : 'text-gray-300 hover:text-white'}
+            ${activeSection === id && !isMobile ? 'nav-link-active' : ''}
+            ${isMobile ? 'text-xl py-4 px-6' : 'text-base'}
             font-inter font-medium block transition-all duration-300
             ${activeSection === id ? 'font-semibold' : ''}
           `}
@@ -105,14 +106,26 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile Menu Overlay */}
       <div
         className={`${
-          nav ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
-        } md:hidden absolute top-20 left-0 w-full glass-effect border-b border-white/10 transition-all duration-300 ease-out`}
+          nav ? 'translate-y-0 opacity-100 visible' : '-translate-y-full opacity-0 invisible'
+        } md:hidden fixed top-20 left-0 w-full h-screen bg-gradient-to-b from-dark-900/95 via-dark-900/90 to-dark-800/95 backdrop-blur-xl transition-all duration-500 ease-out z-40`}
       >
-        <ul className="text-lg font-inter font-medium py-8 px-4 space-y-6">
-          {renderMenuItems(true)}
-        </ul>
+        <div className="glass-effect border-b border-white/10 h-full">
+          <div className="flex flex-col justify-center items-center h-full px-8">
+            <ul className="space-y-8 text-center">
+              {renderMenuItems(true)}
+            </ul>
+            
+            {/* Mobile Menu Footer */}
+            <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2">
+              <p className="text-gray-400 text-sm font-inter">
+                Designed with <span className="text-emerald-400">♥</span> by Kayode
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
