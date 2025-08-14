@@ -22,17 +22,16 @@ function App() {
 
   return (
     <Router>
-      <div className=" bg-[#031A30]   ">
-        
-
-
-        
-        <Navbar />
-        <Home />
-        <Skillset />  
-        <Projects/>
-        <Contact />  
-        <Footer />
+      <div className="bg-gradient-to-br from-dark-950 via-dark-900 to-dark-800 min-h-screen">
+        <div className="fixed inset-0 bg-gradient-to-br from-emerald-900/20 via-teal-900/10 to-cyan-900/20 pointer-events-none" />
+        <div className="relative z-10">
+          <Navbar />
+          <Home />
+          <Skillset />  
+          <Projects/>
+          <Contact />  
+          <Footer />
+        </div>
       </div>
     </Router>
   );

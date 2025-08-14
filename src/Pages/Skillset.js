@@ -2,151 +2,38 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { IoMdCodeWorking } from "react-icons/io";
+import SkillCard from "../components/SkillCard";
+import { skillsData } from "../data/skillsData";
 
 const Skillset = () => {
   useEffect(() => {
     Aos.init({ duration: 2500 });
   }, []);
+  
   return (
-    <section className="w-full pt-[5rem] md:pt-[12rem]" id="skills">
-      <div className="w-11/12   md:w-9/12  mx-auto max-w-[1280px] ">
-        <div className="flex items-center w-fit mx-auto">
-          <h1 className="text-2xl   md:text-4xl text-white font-Ubuntu  font-black text-center">
-            {" "}
-            Skills{" "}
-          </h1>
-          <IoMdCodeWorking className="text-3xl md:text-5xl ml-2 text-[#E0A040] font-bold " />
+    <section className="w-full py-20 md:py-32 relative" id="skills">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-900/5 to-transparent"></div>
+      <div className="w-11/12 md:w-9/12 mx-auto max-w-[1280px] relative z-10">
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center space-x-3 mb-6">
+            <IoMdCodeWorking className="text-3xl md:text-4xl text-emerald-400" />
+            <h1 className="text-3xl md:text-5xl font-grotesk font-bold gradient-text">
+              Skills & Technologies
+            </h1>
+          </div>
+
+          <p className="text-gray-300 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto font-inter">
+            I'm passionate about staying current with the latest technologies and frameworks.
+            With years of experience in <span className="text-white font-semibold">full-stack development</span>,
+            I specialize in creating <span className="gradient-text font-semibold">dynamic, responsive, and accessible applications</span>.
+            Here are the technologies I work with:
+          </p>
         </div>
-
-        <h2 className="  mt-4 leading-8 tracking-wide  text-gray-300 text-lg     ">
-          {" "}
-          I am always eager to enhance my knowledge and stay up-to-date with the
-          latest tools and technologies. With years of experience in Software
-          development, I specialize in creating dynamic, responsive, and
-          accessible applications using modern frameworks. Here are my stacks i
-          work with:
-        </h2>
-        <div className="     grid grid-cols-4 md:grid-cols-5 sm:grid-cols-4 lg:grid-cols-7  gap-10 mt-10 pb-4 ">
         
-        
-        <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-full  " src="./images/react.png" alt="" />
-            <h1 className="text-white mt-1 text-xs  "> ReactJs </h1>
-          </div>
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-full " src="./images/next.png" alt="" />
-            <h1 className="text-white mt-1 text-xs"> Next Js </h1>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-full " src="./images/node.webp" alt="" />
-            <h1 className="text-white mt-1 text-xs"> Node Js </h1>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-full " src="./images/javascript.png" alt="" />
-            <h1 className="text-white mt-2 text-xs"> Javascript </h1>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-full " src="./images/typescript.png" alt="" />
-            <h1 className="text-white mt-2 text-xs"> Typescript </h1>
-          </div>
-
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-10 " src="./images/mongodb.png" alt="" />
-            <h1 className="text-white mt-2 text-xs"> MongoDb </h1>
-          </div>
-
-
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-8 " src="./images/firebase.png" alt="" />
-            <h1 className="text-white mt-1 text-xs"> Firebase </h1>
-          </div>
-
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="h-14" src="./images/html.png" alt="" />
-            <h1 className="text-white text-xs mt-1"> Html </h1>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-full" src="./images/css.png" alt="" />
-            <h1 className="text-white mt-2 text-xs"> CSS </h1>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-full mt-2" src="./images/tailwind.png" alt="" />
-            <h1 className="text-white mt-2 text-xs"> Tailwind </h1>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-full " src="./images/bootstraplogo.png" alt="" />
-            <h1 className="text-white mt-1 text-xs"> Bootstrap </h1>
-          </div>
-
-          
-
-          
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-full " src="./images/redux.png" alt="" />
-            <h1 className="text-white mt-1 text-xs"> Redux </h1>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col  items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-full " src="./images/git.png" alt="" />
-            <h1 className="text-white mt-1 text-xs"> Git </h1>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="flex flex-col items-center cursor-pointer hover:-translate-y-1 duration-200 bg-[#152d46] rounded-md p-2 pt-3 w-16"
-          >
-            <img className="w-full " src="./images/github.png" alt="" />
-            <h1 className="text-white mt-1 text-xs"> Github </h1>
-          </div>
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-6">
+          {skillsData.map((skill, index) => (
+            <SkillCard key={skill.id} skill={skill} index={index} />
+          ))}
         </div>
       </div>
     </section>

@@ -12,6 +12,7 @@ import 'aos/dist/aos.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
+import { IoMailUnreadOutline } from "react-icons/io5";
 
 
 
@@ -44,43 +45,41 @@ const Contact = () => {
   }, []);
 
   return (
-    <section className="w-full" id="contact">
-      <div className="w-11/12 md:w-9/12 mx-auto max-w-[1280px] pt-20 md:pt-40 text-white">
-      <div className='flex w-fit mx-auto items-center'>
-<h1 className= ' text-2xl  md:text-4xl text-white font-Ubuntu  font-black text-center'>  Contact me </h1> 
-<IoChatboxEllipsesOutline  className=' text-xl md:text-3xl ml-2 text-[#E0A040] font-bold '/>
-    </div>
+    <section className="w-full py-20 md:py-32 relative" id="contact">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-pink-900/5 to-transparent"></div>
+      <div className="w-11/12 md:w-9/12 mx-auto max-w-[1280px] text-white relative z-10">
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center space-x-3 mb-6">
+            <IoChatboxEllipsesOutline className="text-3xl md:text-4xl text-emerald-400" />
+            <h1 className="text-3xl md:text-5xl font-grotesk font-bold gradient-text">
+              Let's Connect
+            </h1>
+          </div>
 
-        <div className="lg:flex lg:flex-row">
-          <div>
-            <div className="mt-2 text-gray-100 text-lg ">
-              <p className='leading-8 tracking-wide text-gray-300'>
-                Let's have a conversation about how I can turn your visions into captivating online realities.
-                Feel free to reach out to me via  <span className='font-semibold cursor-pointer hover:text-[#8e7145] hover:border-b-[#8e7145] translate duration-300 ease-out  text-[#E0A040] border-b-2 border-[#E0A040] '>  <a href="mailto:officialkayodeolowo@gmail.com">
-                  {' '}
-                  E-mail
-                </a>{' '} </span> to start a conversation.
-                Whether it's building a stunning website, optimizing user experiences,
-                or anything in between, I'm here to help. Looking forward to hearing
-                from you and exploring the exciting possibilities together!</p>
-            </div>
-            <form ref={form} onSubmit={sendEmail} className="flex flex-col mt-8 md:w-[60%] md:mx-auto">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-300 text-lg md:text-xl leading-relaxed font-inter text-center mb-12">
+              I'm excited to discuss how we can bring your vision to life and create something amazing together.
+              Whether it's building a <span className="text-white font-semibold">stunning website</span>, 
+              enhancing user experiences, or exploring new possibilities, I'm here to help.
+              Let's start a conversation about your next project!
+            </p>
+            {/* <form ref={form} onSubmit={sendEmail} className="flex flex-col mt-8 md:w-[60%] md:mx-auto">
               <input
-                className="mb-4 outline-none focus:bg-gray-800 bg-gray-800  py-3 px-2 rounded-lg  font-Inconsolata font-semibold  outline-0"
+                className="px-2 py-3 mb-4 font-semibold bg-gray-800 rounded-lg outline-none focus:bg-gray-800 font-Inconsolata outline-0"
                 type="text"
                 placeholder="FullName"
                 name="user_name"
                 required
               />
               <input
-                className="mb-4 py-3 px-2 rounded-lg focus:bg-gray-800 bg-gray-800 font-Inconsolata font-semibold  outline-0"
+                className="px-2 py-3 mb-4 font-semibold bg-gray-800 rounded-lg focus:bg-gray-800 font-Inconsolata outline-0"
                 type="email"
                 placeholder="Email"
                 required
                 name="user_email"
               />
               <input
-                className="mb-4  py-3 px-2 font-Inconsolata focus:bg-gray-800 bg-gray-800 font-semibold rounded-lg   outline-0"
+                className="px-2 py-3 mb-4 font-semibold bg-gray-800 rounded-lg font-Inconsolata focus:bg-gray-800 outline-0"
                 type="text"
                 placeholder="Subject"
                 required
@@ -107,7 +106,16 @@ const Contact = () => {
                   </>
                 )}
               </button>
-            </form>
+            </form> */}
+
+            <div className="flex justify-center">
+              <a href="mailto:officialkayodeolowo@gmail.com" className="group">
+                <button className="button-primary flex items-center space-x-3 text-lg font-inter px-8 py-4">
+                  <span>Get In Touch</span>
+                  <IoMailUnreadOutline className="text-xl group-hover:animate-pulse" />
+                </button>
+              </a>
+            </div>
           </div>
 
          

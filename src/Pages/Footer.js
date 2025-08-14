@@ -20,47 +20,57 @@ const Footer = () => {
 
 
   return (
-    <footer className='w-full text-gray-400  '> 
-     <div  className="">
-            <div  className="flex  flex-row space-x-10 mx-auto w-fit mt-20  text-center text-xl ">
-              <button className="lg:mt-10 hover:text-[#E0A040] duration-500 ">
-                <a href="https://twitter.com/Itz_kayman">
-                  {' '}
-                  <FiTwitter />
-                </a>
-              </button>
-              <button className="lg:mt-10  duration-500 hover:text-[#E0A040]">
-                {' '}
-                <a href="https://www.linkedin.com/in/kayode-olowo-21a775124/">
-                  {' '}
-                  <FaLinkedin />
-                </a>{' '}
-              </button>
-              <button className="lg:mt-10  duration-500 hover:text-[#E0A040]">
-                {' '}
-                <a href="https://github.com/kayodeolowo">
-                  {' '}
-                  <BsGithub />
-                </a>{' '}
-              </button>
-              <button className="lg:mt-10  duration-500 hover:text-[#E0A040]">
-                {' '}
-                <a href="mailto:officialkayodeolowo@gmail.com">
-                  {' '}
-                  <TbBrandGmail />
-                </a>{' '}
-              </button>
-            </div>
-          </div>
+    <footer className='w-full py-16 border-t border-white/10 relative'>
+      <div className="absolute inset-0 bg-gradient-to-t from-dark-950 to-transparent"></div>
+      <div className="relative z-10">
+        <div className="flex justify-center space-x-8 mb-8">
+          <a 
+            href="https://twitter.com/Itz_kayman" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="group p-4 rounded-full glass-effect hover:bg-white/10 transition-all duration-300 hover:scale-110"
+          >
+            <FiTwitter className="text-xl text-gray-400 group-hover:text-emerald-400 transition-colors duration-300" />
+          </a>
+          <a 
+            href="https://www.linkedin.com/in/kayode-olowo-21a775124/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="group p-4 rounded-full glass-effect hover:bg-white/10 transition-all duration-300 hover:scale-110"
+          >
+            <FaLinkedin className="text-xl text-gray-400 group-hover:text-emerald-400 transition-colors duration-300" />
+          </a>
+          <a 
+            href="https://github.com/kayodeolowo" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="group p-4 rounded-full glass-effect hover:bg-white/10 transition-all duration-300 hover:scale-110"
+          >
+            <BsGithub className="text-xl text-gray-400 group-hover:text-emerald-400 transition-colors duration-300" />
+          </a>
+          <a 
+            href="mailto:officialkayodeolowo@gmail.com"
+            className="group p-4 rounded-full glass-effect hover:bg-white/10 transition-all duration-300 hover:scale-110"
+          >
+            <TbBrandGmail className="text-xl text-gray-400 group-hover:text-emerald-400 transition-colors duration-300" />
+          </a>
+        </div>
 
-          <hr className='mt-6 md:w-[90%] mx-auto text-gray-900'/>
-    
-       <a href='https://www.linkedin.com/in/kayode-olowo-21a775124/' target='blank'>
+        <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-8"></div>
         
-        <h1    className='text-center items-center  mt-4 pb-6  w-fit mx-auto font-Inconsolata font-semibold hover:text-[#E0A040] transition ease-in-out duration-500'> 
-           Designed & Built By kayode Olowo
-        </h1>
-       </a>
+        <div className="text-center">
+          <a 
+            href='https://www.linkedin.com/in/kayode-olowo-21a775124/' 
+            target='_blank' 
+            rel="noopener noreferrer"
+            className="group inline-block"
+          >
+            <p className="text-gray-400 font-inter font-medium group-hover:text-emerald-400 transition-colors duration-300">
+              Designed & Built by <span className="font-semibold gradient-text">Kayode Olowo</span>
+            </p>
+          </a>
+        </div>
+      </div>
         
     </footer>
   )

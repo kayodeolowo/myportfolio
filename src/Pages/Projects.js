@@ -21,64 +21,87 @@ const Projects = () => {
 
   
   return (
-    <section   className='w-full pt-[5rem] md:pt-[12rem]'  id='projects' >
-      <div   className='w-11/12  md:w-9/12 text-white  mx-auto max-w-[1280px]' >
-        <div>
-          <div>
-          <div className='flex w-fit mx-auto items-center'>
-<h1 className= ' text-2xl md:text-4xl text-white font-Ubuntu  font-black text-center'>  Projects </h1> 
-<BiBriefcase  className='text-2xl md:text-4xl ml-2 text-[#E0A040] font-bold '/>
-    </div>
-            <p className='mt-4 text-gray-300  text-lg leading-8 tracking-wide'> Welcome to this part of my portfolio! I am thrilled to share a curated selection of projects that truly 
-            highlight my journey and proficiency in Frontend web development. Each project has been a stepping stone.
-              As you explore these projects, you will witness firsthand how I have transformed design concepts into functional and visually appealing web interfaces. </p>
+    <section className='relative w-full py-20 md:py-32' id='projects'>
+      <div className='absolute inset-0 bg-gradient-to-b from-transparent via-indigo-900/5 to-transparent'></div>
+      <div className='w-11/12 md:w-9/12 text-white mx-auto max-w-[1280px] relative z-10'>
+        <div className='mb-16 text-center'>
+          <div className='inline-flex items-center mb-6 space-x-3'>
+            <BiBriefcase className='text-3xl md:text-4xl text-emerald-400' />
+            <h1 className='text-3xl font-bold md:text-5xl font-grotesk gradient-text'>
+              Featured Projects
+            </h1>
           </div>
+          <p className='max-w-3xl mx-auto text-lg leading-relaxed text-gray-300 md:text-xl font-inter'>
+            Welcome to my project showcase! Here's a curated selection of projects that highlight my journey 
+            and expertise in <span className='font-semibold text-white'>Frontend & Backend development</span>. 
+            Each project represents a unique challenge and demonstrates my ability to transform ideas into 
+            <span className='font-semibold gradient-text'>functional, beautiful solutions</span>.
+          </p>
         </div>
 
       
 
 
 
-        <div className=' pt-4 sm:grid sm:gap-8 sm:grid-cols-2 lg:grid-cols-4  2xl:grid-cols-5 lg:gap-x-8     mx-auto '>
+        <div className='grid grid-cols-1 gap-8 mx-auto sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
           {data.map((values) => {
             const { id, name, img, type, description, languages, link, github, data } = values;
             return (
-              <section data-aos="zoom-in" key={id} className=' mt-8 mx-auto  w-10/12 sm:w-full bg-[#072a4b]   rounded-lg  shadow-2xl hover:bg-[#0C1B46]  duration-300 hover:ease-in transition hover:shadow-2xl  hover:cursor-pointer 
-                '>
+              <div 
+                data-aos="zoom-in" 
+                key={id} 
+                className='group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:bg-white/10 card-shadow hover:border-emerald-400/30'
+              >
 
-                <div className=''>
-
-                  <a href={link} target='_blank' > <img  className=' w-full h-[160px] sm:h-[160px] lg:h-[120px] rounded-t-lg' src={img} alt="" /> </a>
-                  <div className='flex mt-1 items-center justify-between'>
-                    <a href={link} target='_blank' >  <h1 className='text-left pt-1 sm:pt-1 mx-2 font-Ubuntu font-semibold sm:text-[18px] lg:text-[15px] lg:mx-2 text-[18px] hover:text-[#e7b467]'> {name}  </h1> </a>
-                    {/* <a className='text-[1.2rem] mr-2   text-gray-400  hover:text-[#E0A040]' href={github}> <BsGithub /> </a> */}
-                    <a href={link} target='_blank'> <button className='flex mx-auto  px-2 mr-2  text-[12px] lg:text-[11px] bg-[#d48308]  hover:bg-[#e7b467] rounded  text-black text-xs font-semibold '> Link  </button>       </a>
+                <div className='relative overflow-hidden'>
+                  <a href={link} target='_blank'>
+                    <img 
+                      className='object-cover w-full h-48 transition-transform duration-500 group-hover:scale-110' 
+                      src={img} 
+                      alt={name}
+                    />
+                    <div className='absolute inset-0 transition-opacity duration-300 opacity-0 bg-gradient-to-t from-black/60 to-transparent group-hover:opacity-100'></div>
+                  </a>
+                </div>
+                
+                <div className='p-4'>
+                  <div className='flex items-start justify-between mb-2'>
+                    <a href={link} target='_blank'>
+                      <h3 className='text-xl font-semibold text-white transition-colors duration-300 font-grotesk group-hover:text-emerald-400 line-clamp-2'>
+                        {name}
+                      </h3>
+                    </a>
                   </div>
 
-                  {/* <p className='mt-3 mx-2 lg:mx-3 font-mono text-[14px] lg:text-[12px] lg:mt-1  sm:h-[90px] lg:h-[70px]  '> {description } </p> */}
-                  <div className='flex mt-2 justify-between items-center '>
-                    <p  className='ml-2 w-fit  text-white font-200 text-xs'>
-                      {languages.map((language, index) => (
-                        <span
-                          key={index}
-                          style={{ backgroundColor: 'black', padding: '1px 2px', marginRight: '4px', borderRadius: '3px' }}
-                        >
-                          {language}
-                        </span>
-                      ))}
-                    </p>
-                    <a data-aos="zoom-in" className='text-[1.2rem] mr-2   text-gray-400  hover:text-[#E0A040]' href={github}> <BsGithub /> </a>
+                  <div className='flex flex-wrap gap-2 mb-3'>
+                    {languages.map((language, index) => (
+                      <span
+                        key={index}
+                        className='px-3 py-1 font-mono text-xs font-medium border rounded-full bg-emerald-500/20 text-emerald-300 border-emerald-500/30'
+                      >
+                        {language}
+                      </span>
+                    ))}
+                  </div>
+                  
+                  <div className='flex items-center justify-between'>
+                    <a 
+                      href={link} 
+                      target='_blank'
+                      className='flex items-center justify-center px-2 py-1.5 text-xs button-primary'
+                    >
+                      View Live
+                    </a>
+                    <a 
+                      href={github} 
+                      target='_blank'
+                      className='p-3 transition-colors duration-300 rounded-full hover:bg-white/10 group/icon'
+                    >
+                      <BsGithub className='text-xl text-gray-400 transition-colors duration-300 group-hover/icon:text-white' />
+                    </a>
                   </div>
                 </div>
-
-                <div className='flex flex-row justify-between  pt-2 lg:pt-2 pb-2 w-fit mx-auto'>
-                  {/* <a href={link}> <button className='flex mx-auto  px-6 py-1 lg:py-1 text-[12px] lg:text-[11px] bg-[#469e4c] border-[#173047] hover:bg-[#d48308] rounded-md text-black  font-semibold'> Live Demo  </button>       </a> */}
-                  {/* <span className='ml-2 text-[20px] lg:text-[12px] lg:mt-[2px]'> <CgEnter/>  </span> */}
-
-                </div>
-
-
-              </section>
+              </div>
             )
           })}
         </div>

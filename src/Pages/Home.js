@@ -8,62 +8,62 @@ import { AiOutlineCloudDownload } from 'react-icons/ai';
 
 const Home = () => {
   return (
-    <section className='w-full  max-w-xl:h-screen' id='about' >
-      <div className='w-11/12 md:w-9/12  mx-auto max-w-[1280px]'>
-      <div className=' pt-[8rem] 2xl:pt-[15rem]'> 
-               <div className='text-center'> 
-                     <h1 className='text-[#E0A040] text-2xl font-Inconsolata font-semibold'> Hello there, my name is  </h1>
+    <section className='w-full min-h-screen flex items-center justify-center relative overflow-hidden' id='about'>
+      <div className='absolute inset-0 bg-gradient-to-br from-indigo-900/10 via-purple-900/5 to-pink-900/10'></div>
+      <div className='w-11/12 md:w-9/12 mx-auto max-w-[1280px] relative z-10'>
+        <div className='pt-20 pb-20'>
+          <div className='text-center animate-fade-in'>
+            <div className='inline-block mb-6'>
+              <span className='text-emerald-400 text-lg font-inter font-medium tracking-wide uppercase'>
+                Hello there, my name is
+              </span>
+            </div>
                      
 
-                    <a href='https://www.linkedin.com/in/kayode-olowo-21a775124/' target='blank'>
-                    <h1 data-aos="zoom-in" className=' mt-4 text-4xl sm:text-6xl md:text-[7rem]  font-bold text-white font-Source   text-center transition ease-in hover:text-[#E0A040] cursor-pointer  duration-500'> Kayode Olowo</h1>
-                    
-                    </a>
-                   
-                     {/* <h1 className='mt-6 md:mt-4 sm:w-9/12 lg:w-7/12  leading-snug  text-gray-100 font-fira text-start sm:text-start text-2xl  '> I am a Creative front-end engineer with years of experience in building appealing web applications in front-end web development. Am passionate about building and developing user friendly websites and web based applications.   </h1> <h2 className=' mt-6 font-fira text-lg sm:text-xl leading-snug text-gray-100 text-start sm:w-9/12  lg:w-7/12'> </h2>
-                */}
-               </div>
+            <a href='https://www.linkedin.com/in/kayode-olowo-21a775124/' target='_blank' className='group block'>
+              <h1 className='text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-grotesk font-black leading-tight'>
+                <span className='gradient-text group-hover:scale-105 transition-transform duration-500 inline-block'>
+                  Kayode Olowo
+                </span>
+              </h1>
+            </a>
+          </div>
 
-               
-
-
+          <div className='mt-16'>
+            <div className='flex flex-col items-center'>
+              <div className='relative group'>
+                <div className='absolute -inset-4 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-full opacity-20 blur-xl group-hover:opacity-40 transition-opacity duration-500'></div>
+                <img className='relative w-40 h-40 2xl:w-48 2xl:h-48 rounded-full object-cover animate-float border-4 border-white/20 shadow-2xl' src="./images/boy.png" alt='Kayode Olowo' />
+              </div>
+              
+              <div className='mt-12 max-w-3xl mx-auto'>
+                <p className='text-gray-300 text-lg md:text-xl leading-relaxed font-inter text-center tracking-wide'>
+                  I am a <span className='font-semibold text-white'>professional software developer</span> skilled in both 
+                  <span className='gradient-text font-semibold'> Frontend and Backend development</span>. 
+                  From building responsive, interactive interfaces to designing efficient backend systems, 
+                  I enjoy creating seamless web experiences. I have worked on multiple successful projects 
+                  and take pride in delivering solutions that look great and perform even better.
+                </p>
+              </div>
+              
+              <div className='flex flex-col sm:flex-row gap-6 justify-center mt-12'>
+                <a href={Resume} download className='group'>
+                  <button className='button-primary flex items-center justify-center space-x-3 text-lg font-inter w-full sm:w-auto'>
+                    <span>Download Resume</span>
+                    <AiOutlineCloudDownload className='text-xl group-hover:animate-bounce' />
+                  </button>
+                </a>
+                
+                <a href="mailto:officialkayodeolowo@gmail.com" className='group'>
+                  <button className='button-secondary flex items-center justify-center space-x-3 text-lg font-inter w-full sm:w-auto'>
+                    <span>Contact Me</span>
+                    <IoMailUnreadOutline className='text-xl group-hover:animate-pulse' />
+                  </button>
+                </a>
+              </div>
             </div>
-
-            <div className='  '>
-
-<div className=' items-center '>
-  <div className=''>
-     
-  <img className='mt-8  w-[10rem] 2xl:mt-10 cursor-pointer   mx-auto ' src="./images/boy.png" alt='' />
-    <h1 className='text-gray-300 tracking-wide md:w-[70%] mt-6 2xl:mt-8 md:mt-4 max-w-[40rem] mx-auto text-center text-lg 2xl:text-xl  font-normal   leading-0'  > 
-     
-
-    I am a professional software developer skilled in both Front-end and Back-end development. From building responsive, interactive interfaces to designing efficient back-end systems, I enjoy creating seamless web experiences. I have worked on multiple successful projects and take pride in delivering solutions that look great and perform even better.
-
-    </h1>
-
-
-  </div>
-
-  
-
-</div>
-
-
-<div className='flex sm:flex-row flex-col sm:space-x-4 w-fit mx-auto 2xl:mt-10'>
-<a href={Resume} download>
-  <button className='flex items-center mx-auto   mt-6 px-6 py-2 md:py-2 text-lg bg-[#152d46]  rounded-lg text-white font-Ubuntu font-bold transition ease-in hover:bg-[#28405b]  duration-300 ' >  My Resume <span className='ml-2 text-lg'> <AiOutlineCloudDownload /> </span>  </button>
-</a>
-
-<a href="mailto:officialkayodeolowo@gmail.com">
-  <button className='flex items-center mx-auto  mt-6 px-6 py-2 md:py-2 text-lg bg-[#152d46]  rounded-lg text-white font-Ubuntu font-bold transition ease-in hover:bg-[#28405b]  duration-300 ' >  
-  Contact me <span className='ml-2 text-lg'> <IoMailUnreadOutline /> </span>
-          </button>
-          </a>
-
-</div>
-
-</div>
+          </div>
+        </div>
       </div>
             
     </section>
