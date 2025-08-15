@@ -7,7 +7,7 @@ const Categories = [
     name: "Crypto Stats",
     img: "./images/cryptostats.png",
     description: " Web App were users can check different Live crypto currencies with their individual data ",
-    languages: ["Typescript", "NextJS",  "API"],
+    languages: ["Typescript", "NextJS"],
     link: "https://crypto-chart-stats.vercel.app/",
     github: "https://github.com/kayodeolowo",
     data: "Rest Api"
@@ -89,7 +89,7 @@ const Categories = [
     name: "KrayaStores",
     img: "./images/ecom.png",
     description: "An E-commerce website for shopping ",
-    languages: ["Typescript", "ReactJS", "Redux"],
+    languages: ["Typescript", "ReactJS"],
     link: "https://krayastores.netlify.app/",
     github: "https://github.com/kayodeolowo/e-commerce",
     data: "Rest Api"
@@ -103,7 +103,7 @@ const Categories = [
     categories: "web apps",
     name: "  Begreat Finance",
     img: "./images/begreat.jpg",
-    languages: ["Javascript", "Next JS", "Redux"],
+    languages: ["Javascript", "Next JS"],
     link: "https://be-great-finance.netlify.app",
     github: "https://github.com/kayodeolowo?tab=repositories",
     data: "Json"
@@ -117,7 +117,7 @@ const Categories = [
     name: "Movie Trailer",
     img: "./images/movie.png",
     description: "A Web App that displays movies and tv shows with their trailers ",
-    languages: ["Javascript", "ReactJS", "API"],
+    languages: ["Javascript", "ReactJS", ],
     link: "https://k-streams.netlify.app/",
     github: "https://github.com/kayodeolowo/movies-stream",
     data: "Rest Api"
@@ -169,7 +169,7 @@ const Categories = [
     type: "Json",
     img: "./images/port.png",
     description: "Hi Welcome to my portfolio. ",
-    languages: ["Javascript", "ReactJS", "Json"],
+    languages: ["Javascript", "ReactJS"],
     link: "https://kayodeolowo.netlify.app/",
     github: "https://github.com/kayodeolowo/myportfolio",
     data: "JSon"
