@@ -1,18 +1,20 @@
 const Categories = [
 
-
-    {
-    id: 1,
+  {
+    id: 2,
     categories: "web apps",
-    name: "Crypto Stats",
-    img: "./images/cryptostats.png",
-    description: " Web App were users can check different Live crypto currencies with their individual data ",
-    languages: ["Typescript", "NextJS"],
-    link: "https://crypto-chart-stats.vercel.app/",
+    name: "Movie Today",
+    img: "./images/movies.png",
+    description: "A Web App that displays movies and tv shows with their trailers ",
+    languages: ["Javascript", "ReactJS", ],
+    link: "https://movies-today.vercel.app/",
     github: "https://github.com/kayodeolowo",
     data: "Rest Api"
 
-  },
+  },  
+
+
+   
 
 
   {
@@ -41,6 +43,20 @@ const Categories = [
   },
 
 
+ {
+    id: 1,
+    categories: "web apps",
+    name: "Crypto Stats",
+    img: "./images/cryptostats.png",
+    description: " Web App were users can check different Live crypto currencies with their individual data ",
+    languages: ["Typescript", "NextJS"],
+    link: "https://crypto-chart-stats.vercel.app/",
+    github: "https://github.com/kayodeolowo",
+    data: "Rest Api"
+
+  },
+  
+
     {
     id: 50,
     categories: "web apps",
@@ -53,6 +69,8 @@ const Categories = [
 
   },
 
+
+  
     {
     id: 14,
     categories: "web apps",
@@ -67,17 +85,17 @@ const Categories = [
   },
 
 
-  {
-    id: 15,
-    categories: "web apps",
-    name: "Moon Republic",
-    img: "./images/moonrep.jpg",
-    languages: ["Javascript", "ReactJS"],
-    link: "https://moonrepublic.netlify.app/",
-    github: "https://github.com/kayodeolowo?tab=repositories",
-    data: "Json"
+  // {
+  //   id: 15,
+  //   categories: "web apps",
+  //   name: "Moon Republic",
+  //   img: "./images/moonrep.jpg",
+  //   languages: ["Javascript", "ReactJS"],
+  //   link: "https://moonrepublic.netlify.app/",
+  //   github: "https://github.com/kayodeolowo?tab=repositories",
+  //   data: "Json"
 
-  },
+  // },
 
 
 
@@ -111,18 +129,7 @@ const Categories = [
   },
 
 
-  {
-    id: 2,
-    categories: "web apps",
-    name: "Movie Trailer",
-    img: "./images/movie.png",
-    description: "A Web App that displays movies and tv shows with their trailers ",
-    languages: ["Javascript", "ReactJS", ],
-    link: "https://k-streams.netlify.app/",
-    github: "https://github.com/kayodeolowo/movies-stream",
-    data: "Rest Api"
 
-  },
 
   {
     id: 4,
