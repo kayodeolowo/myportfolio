@@ -56,7 +56,7 @@ const Projects = () => {
                 <div className='relative overflow-hidden'>
                   <a href={link} target='_blank'>
                     <img 
-                      className='w-full transition-transform duration-500 h-[8rem] object-cover group-hover:scale-110' 
+                      className='w-full transition-transform duration-500 h-[12rem] object-cover group-hover:scale-110' 
                       src={img} 
                       alt={name}
                     />
