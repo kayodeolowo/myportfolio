@@ -54,15 +54,16 @@ const Projects = () => {
               data,
             } = values;
             return (
-              <div
-                data-aos="zoom-in"
-                key={id}
-                className="group max-md:w-20 max-sm:mx-auto bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:bg-white/10 card-shadow hover:border-emerald-400/30"
-              >
+            <div
+  data-aos="zoom-in"
+  key={id}
+  className="group w-[20rem] sm:w-auto mx-auto bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:bg-white/10 card-shadow hover:border-emerald-400/30"
+>
+
                 <div className="relative overflow-hidden">
                   <a href={link} target="_blank">
                     <img
-                      className="w-full transition-transform duration-500 h-[9rem]  group-hover:scale-110"
+                      className="w-full transition-transform duration-500 h-[12rem]  md:h-[9rem]  group-hover:scale-110"
                       src={img}
                       alt={name}
                     />
