@@ -120,16 +120,16 @@ const Categories = [
     data: "Json",
   },
 
-  {
-    id: 4,
-    categories: "websites",
-    name: "Ms lockdown",
-    img: "./images/mslockdown.png",
-    description: "Website built for a social media Startup ",
-    languages: ["Javascript", "ReactJS"],
-    link: "https://mslockdown.netlify.app/",
-    github: "https://github.com/kayodeolowo?tab=repositories",
-  },
+  // {
+  //   id: 4,
+  //   categories: "websites",
+  //   name: "Ms lockdown",
+  //   img: "./images/mslockdown.png",
+  //   description: "Website built for a social media Startup ",
+  //   languages: ["Javascript", "ReactJS"],
+  //   link: "https://mslockdown.netlify.app/",
+  //   github: "https://github.com/kayodeolowo?tab=repositories",
+  // },
 
   {
     id: 12,
