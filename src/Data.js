@@ -18,29 +18,29 @@ const Categories = [
 
 
   {
-    id: 16,
+    id: 132,
     categories: "websites",
     name: "RoyalField Consulting",
     img: "./images/royalf.png",
     languages: ["Javascript", "ReactJS"],
-    link: "https://royalfieldconsulting.com/",
+    link: "https://www.royalfieldconsulting.com/",
     github: "https://github.com/kayodeolowo?tab=repositories",
     data: "Json"
 
   },
 
 
-  {
-    id: 20,
-    categories: "websites",
-    name: "MetaAfrica Sports",
-    img: "./images/metaafrica.png",
-    languages: ["Typescript", "NextJS"],
-    link: "https://metaafricasports.com/",
-    github: "https://github.com/kayodeolowo?tab=repositories",
-    data: "Api"
+  // {
+  //   id: 20,
+  //   categories: "websites",
+  //   name: "MetaAfrica Sports",
+  //   img: "./images/metaafrica.png",
+  //   languages: ["Typescript", "NextJS"],
+  //   link: "https://metaafricasports.com/",
+  //   github: "https://github.com/kayodeolowo?tab=repositories",
+  //   data: "Api"
 
-  },
+  // },
 
 
  {
