@@ -1,21 +1,16 @@
 const Categories = [
-
   {
     id: 2,
     categories: "web apps",
     name: "Movie Today",
     img: "./images/movies.png",
-    description: "A Web App that displays movies and tv shows with their trailers ",
-    languages: ["Javascript", "ReactJS", ],
+    description:
+      "A Web App that displays movies and tv shows with their trailers ",
+    languages: ["Javascript", "ReactJS"],
     link: "https://movies-today.vercel.app/",
     github: "https://github.com/kayodeolowo",
-    data: "Rest Api"
-
-  },  
-
-
-   
-
+    data: "Rest Api",
+  },
 
   {
     id: 132,
@@ -25,10 +20,8 @@ const Categories = [
     languages: ["Javascript", "ReactJS"],
     link: "https://www.royalfieldconsulting.com/",
     github: "https://github.com/kayodeolowo?tab=repositories",
-    data: "Json"
-
+    data: "Json",
   },
-
 
   // {
   //   id: 20,
@@ -42,22 +35,33 @@ const Categories = [
 
   // },
 
-
- {
+  {
     id: 1,
     categories: "web apps",
     name: "Crypto Stats",
     img: "./images/cryptostats.png",
-    description: " Web App were users can check different Live crypto currencies with their individual data ",
+    description:
+      " Web App were users can check different Live crypto currencies with their individual data ",
     languages: ["Typescript", "NextJS"],
     link: "https://crypto-chart-stats.vercel.app/",
     github: "https://github.com/kayodeolowo",
-    data: "Rest Api"
-
+    data: "Rest Api",
   },
-  
 
-    {
+  {
+    id: 223,
+    categories: "web apps",
+    name: "Novasyra",
+    img: "./images/nova.png",
+    description:
+      "A Web App that displays movies and tv shows with their trailers ",
+    languages: ["Typescript", "ReactJS"],
+    link: "https://novasyra.vercel.app/",
+    github: "https://github.com/kayodeolowo",
+    data: "Rest Api",
+  },
+
+  {
     id: 50,
     categories: "web apps",
     name: "Biosphere Solutions",
@@ -65,25 +69,21 @@ const Categories = [
     languages: ["Javascript", "NextJS"],
     link: "https://biospheresolutions.netlify.app/",
     github: "https://github.com/kayodeolowo?tab=repositories",
-    data: "Json"
-
+    data: "Json",
   },
 
-
-  
-    {
+  {
     id: 14,
     categories: "web apps",
     name: "Marketie",
     img: "./images/dashboard.jpg",
-    description: "Sales dashboard that provides real-time details on sales performance, Earnings, top-selling products and others ",
+    description:
+      "Sales dashboard that provides real-time details on sales performance, Earnings, top-selling products and others ",
     languages: ["Javascript", "ReactJS"],
     link: "https://sales-dahsboard.netlify.app/dashboard",
     github: "https://github.com/kayodeolowo?tab=repositories",
-    data: "Json"
-
+    data: "Json",
   },
-
 
   // {
   //   id: 15,
@@ -97,11 +97,7 @@ const Categories = [
 
   // },
 
-
-
-
   {
-
     id: 13,
     categories: "web apps",
     name: "KrayaStores",
@@ -110,11 +106,8 @@ const Categories = [
     languages: ["Typescript", "ReactJS"],
     link: "https://krayastores.netlify.app/",
     github: "https://github.com/kayodeolowo/e-commerce",
-    data: "Rest Api"
-
+    data: "Rest Api",
   },
-
-
 
   {
     id: 16,
@@ -124,12 +117,8 @@ const Categories = [
     languages: ["Javascript", "Next JS"],
     link: "https://be-great-finance.netlify.app",
     github: "https://github.com/kayodeolowo?tab=repositories",
-    data: "Json"
-
+    data: "Json",
   },
-
-
-
 
   {
     id: 4,
@@ -139,35 +128,20 @@ const Categories = [
     description: "Website built for a social media Startup ",
     languages: ["Javascript", "ReactJS"],
     link: "https://mslockdown.netlify.app/",
-    github: "https://github.com/kayodeolowo?tab=repositories"
-
+    github: "https://github.com/kayodeolowo?tab=repositories",
   },
-
-
 
   {
     id: 12,
     categories: "websites",
     name: "ArbFurbo",
     img: "./images/arb.jpg",
-    description: "Web 3 web app that operates on top of a decentralized network and utilizes blockchain technology",
-    languages: ["Javascript", "NextJS",],
+    description:
+      "Web 3 web app that operates on top of a decentralized network and utilizes blockchain technology",
+    languages: ["Javascript", "NextJS"],
     link: "https://arbfurbo-k35z.vercel.app/",
-    github: "https://github.com/kayodeolowo?tab=repositories"
-
+    github: "https://github.com/kayodeolowo?tab=repositories",
   },
-
-
-
-
-
-
-
-
-
-
-
-
 
   {
     id: 9,
@@ -179,16 +153,8 @@ const Categories = [
     languages: ["Javascript", "ReactJS"],
     link: "https://kayodeolowo.netlify.app/",
     github: "https://github.com/kayodeolowo/myportfolio",
-    data: "JSon"
-
+    data: "JSon",
   },
+];
 
-
-
-
-
-
-
-]
-
-export default Categories
+export default Categories;
