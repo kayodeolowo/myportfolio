@@ -47,12 +47,12 @@ const Home = () => {
               </div>
               
               <div className='flex flex-col justify-center gap-6 mt-12 sm:flex-row'>
-                <a href={Resume} download className='group'>
+                {/* <a href={Resume} download className='group'>
                   <button className='flex items-center justify-center w-full space-x-3 text-lg button-primary font-inter sm:w-auto'>
                     <span>Download Resume</span>
                     <AiOutlineCloudDownload className='text-xl group-hover:animate-bounce' />
                   </button>
-                </a>
+                </a> */}
                 
                 <a href="mailto:officialkayodeolowo@gmail.com" className='group'>
                   <button className='flex items-center justify-center w-full space-x-3 text-lg button-secondary font-inter sm:w-auto'>
